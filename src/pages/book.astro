@@ -2,12 +2,13 @@
 import Layout from "../layouts/Layout.astro";
 import AbilityCard from "../components/AbilityCard.astro";
 import allAbilities from "../data/abilities.json"
+import enabledAbilities from "../data/enabled_abilities.json"
 ---
 
 <Layout title="Spellbook">
   <main>
     <div class="flex flex-wrap justify-center">
-      {allAbilities.map(a => <AbilityCard ability={a}/>)}
+      {allAbilities.filter(({id}) => enabledAbilities.includes(id)).map(a => <AbilityCard ability={a}/>)}
     </div>
   </main>
 </Layout>

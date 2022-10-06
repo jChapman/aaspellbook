@@ -4,8 +4,8 @@ export interface Ability {
   categories: Array<string>;
   description: string;
   values: Array<string>;
-  cooldowns: Array<string>;
-  manaCost: Array<string>
+  cooldowns: Array<number>;
+  manaCost: Array<number>;
   superUpgrade: string;
   gabenUpgrade: string;
   isUlt: boolean;
