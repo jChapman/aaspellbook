@@ -1,14 +1,13 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import AbilityCard from "../components/AbilityCard.astro";
+import allAbilities from "../data/abilities.json"
 ---
 
 <Layout title="Spellbook">
   <main>
     <div class="flex flex-wrap justify-center">
-      <AbilityCard />
-      <AbilityCard />
-      <AbilityCard />
+      {allAbilities.map(a => <AbilityCard ability={a}/>)}
     </div>
   </main>
 </Layout>
