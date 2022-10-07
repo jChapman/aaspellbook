@@ -5,7 +5,12 @@ import Card from '../components/Card.astro';
 
 <Layout title="Ability Arena Spellbook">
   <main>
-    <h1>Open the <span class="">Spellbook!</span></h1>
+    <div class="bg-gradient-to-tr from-purple-600/20 to-pink-400/20 flex items-center h-[500px]">
+      <img src="public/spellbook.png" class="h-0 sm:h-96">
+      <div class="text-4xl pl-20 flex-grow self-center">
+      Open the <span class="">Spellbook!</span>
+      </div>
+    </div>
     <ul role="list" class="">
       <Card
         href="/book"
@@ -21,6 +26,11 @@ import Card from '../components/Card.astro';
         href="#"
         title="Builds"
         body="What are the popular combos?"
+      />
+      <Card
+        href="#"
+        title="Bodies, Bodies, Bodies"
+        body="Look at the stats for the various base heros you can use"
       />
       <Card
         href="#"
