@@ -1,45 +1,43 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
+import Layout from "../layouts/Layout.astro";
+import Card from "../components/Card.astro";
 ---
 
 <Layout title="Ability Arena Spellbook">
-  <main>
-    <div class="bg-gradient-to-tr from-purple-600/20 to-pink-400/20 flex items-center h-[500px]">
-      <img src="spellbook.png" class="h-0 md:h-96">
-      <div class="px-10 md:pl-20 flex-grow self-center">
-        <div class="text-6xl text-yellow-500 font-extrabold pb-4">Ability Arena Spellbook</div>
-        <div class="text-4xl ">
-          Open the <span class="">Spellbook!</span>
+  <main class="bg-zinc-900 mx-auto max-w-7xl min-h-full px-4 sm:px-8 lg:px-12">
+      <div class="flex items-center h-[500px]">
+        <img src="spellbook.png" class="h-0 md:h-96 rounded-md animate-pulse" />
+        <div class="px-10 md:pl-20 flex-grow self-center">
+          <h1 class="text-6xl font-bold tracking-tight">
+            <span class="animate-glow">A</span>bility <span class="text-yellow-100">A</span>rena <span class="text-yellow-100">Spellbook</span>
+          </h1>
+          <div class="text-4xl">
+            Open the <span class="">Spellbook!</span>
+          </div>
         </div>
       </div>
-    </div>
-    <ul role="list" class="">
-      <Card
-        href="/book"
-        title="Spellbook"
-        body="View all spells and examine all the little details"
-      />
-      <Card
-        href="#"
-        title="Gods"
-        body="What does that one do again? Take a look at all the gods, their powers, and how to obtain them"
-      />
-      <Card
-        href="#"
-        title="Builds"
-        body="What are the popular combos?"
-      />
-      <Card
-        href="#"
-        title="Bodies, Bodies, Bodies"
-        body="Look at the stats for the various base heros you can use"
-      />
-      <Card
-        href="#"
-        title="Feedback"
-        body="Got an idea to make this site better? Submit it here!"
-      />
-    </ul>
+      <ul role="list" class="">
+        <Card
+          href="/book"
+          title="Spellbook"
+          body="View all spells and examine all the little details"
+        />
+        <Card
+          href="#"
+          title="Gods"
+          body="What does that one do again? Take a look at all the gods, their powers, and how to obtain them"
+        />
+        <Card href="#" title="Builds" body="What are the popular combos?" />
+        <Card
+          href="#"
+          title="Bodies, Bodies, Bodies"
+          body="Look at the stats for the various base heros you can use"
+        />
+        <Card
+          href="#"
+          title="Feedback"
+          body="Got an idea to make this site better? Submit it here!"
+        />
+      </ul>
   </main>
 </Layout>
