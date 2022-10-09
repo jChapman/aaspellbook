@@ -15,7 +15,7 @@ const { href, title, body, comingSoon = false } = Astro.props;
   transition" >
   {
     comingSoon && (
-      <div class="absolute bottom-0 right-0 bg-yellow-500 content-center text-black font-bold mr-8 mb-8 l-24 p-4 group-hover:animate-spin">
+      <div class="absolute bottom-0 right-0 bg-yellow-500 content-center text-black font-bold mr-8 mb-8 l-24 p-4 group-hover:animate-spin rounded-md group-hover:blur-[.5px]">
         Coming soon!
       </div>
     )
