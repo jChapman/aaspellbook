@@ -6,16 +6,18 @@ interface Props {
 
 const {ability} = Astro.props;
 ---
-<div class="m-4 rounded-xl bg-dank-600 shadow-lg shadow-dank-900 max-w-lg flex flex-col">
-  <div class="bg-blue-400 w-10 h-10 absolute m-2 hidden"></div>
+<div class="m-2 rounded-xl bg-dank-600 shadow-lg shadow-dank-900 max-w-lg flex flex-col">
   <header
-    class="pl-20 rounded-t-xl bg-dank-500 p-3 
+    class="p-4 rounded-t-xl bg-dank-500 
     text-slate-200 text-2xl font-bold uppercase"
   >
   {ability.name}
   </header>
-  <div id="types" class="m-2 border-b-2 border-slate-500 py-2 text-slate-400">
+  <div class="flex flex-row border-b-2 border-slate-500 py-2">
+  <div id="types" class="m-2 text-slate-400">
     {ability.categories.map(catStr => <div>{catStr}</div>)}
+  </div>
+  <img class="ml-auto mr-4 shadow-sm" src={`https://abilityarena.com/images/ability_icons/${ability.icon}.png`}>
   </div>
   <div id="desc" class="p-2 text-purple-200">
     {ability.description}
