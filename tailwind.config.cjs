@@ -19,15 +19,14 @@ module.exports = {
         sans: ["Inter", ...defaultTheme.fontFamily.sans],
         display: ["Lexend", ...defaultTheme.fontFamily.sans],
       },
-      animation: {
-        glow: "glow 1s ease-in-out infinate",
-      },
       keyframes: {
         glow: {
-          "0%, 100%": { transform: "rotate(-5deg)" },
-          "50%": { transform: "rotate(5deg)" },
-					//"text-shadow": "0 0 10px #ffd94d"
+          "0%, 100%": { textShadow: "0 0 10px #ffd94d" },
+          "50%": { textShadow: "0 0 50px #ffd94d" },
         },
+      },
+      animation: {
+        glow: "glow 4s ease-in-out infinite",
       },
     },
   },
