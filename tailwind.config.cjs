@@ -21,8 +21,8 @@ module.exports = {
       },
       keyframes: {
         glow: {
-          "0%, 100%": { textShadow: "0 0 10px #ffd94d" },
-          "50%": { textShadow: "0 0 50px #ffd94d" },
+          "0%, 100%": { textShadow: "0 0 1px #ffd94d" },
+          "50%": { textShadow: "0 0 10px #ffd94d" },
         },
       },
       animation: {
