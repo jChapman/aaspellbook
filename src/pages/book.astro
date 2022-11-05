@@ -8,7 +8,7 @@ import enabledAbilities from "../data/enabled_abilities.json"
 ---
 
 <Layout title="Spellbook">
-  <Header/>
+  <Header title="Spellbook"/>
   <main>
     <div class="flex flex-wrap justify-center">
       {allAbilities.filter(({id}) => enabledAbilities.includes(id)).map(a => <AbilityCard ability={a}/>)}

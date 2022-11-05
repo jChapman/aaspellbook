@@ -1,6 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Card from "../components/Card.astro";
+import Footer from "../components/Footer.astro";
 ---
 
 <Layout title="Ability Arena Spellbook">
@@ -18,7 +19,7 @@ import Card from "../components/Card.astro";
         </div>
       </div>
     </div>
-    <div class="flex flex-wrap justify-center">
+    <div class="flex flex-wrap justify-center mb-20 pb-6">
       <Card
         href="/book"
         title="Spellbook"
@@ -50,4 +51,5 @@ import Card from "../components/Card.astro";
       />
     </div>
   </main>
+  <Footer/>
 </Layout>
