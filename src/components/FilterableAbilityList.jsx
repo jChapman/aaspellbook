@@ -23,7 +23,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-export default function AbilityList({abilities}) {
+export default function AbilityList({ abilities }) {
   const [query, setQuery] = useState("");
   const [open, setOpen] = useState(true);
 
@@ -31,13 +31,12 @@ export default function AbilityList({abilities}) {
     query === ""
       ? abilities
       : abilities.filter((a) => {
-        console.log('Test')
           return a.name.toLowerCase().includes(query.toLowerCase());
         });
 
   return (
-    <div className="flex flex-wrap justify-center">
-      <div className="mx-auto max-w-2xl transform divide-y divide-gray-500 divide-opacity-20 overflow-hidden rounded-xl bg-dank-500 shadow-2xl transition-all">
+    <div className="flex flex-col my-4">
+      <div className="mx-auto w-1/2 transform divide-y divide-gray-500 divide-opacity-20 overflow-hidden rounded-xl bg-dank-500 shadow-2xl transition-all">
         <Combobox onChange={(item) => (window.location = item.url)}>
           <div className="relative">
             <MagnifyingGlassIcon
@@ -47,13 +46,23 @@ export default function AbilityList({abilities}) {
             <Combobox.Input
               className="h-12 w-full border-0 bg-transparent pl-11 pr-4 text-white placeholder-gray-500 focus:ring-0 sm:text-sm"
               placeholder="Search..."
-              onChange={(event) => { console.log('Updated query'); setQuery(event.target.value)}}
+              onChange={(event) => {
+                console.log("Updated query");
+                setQuery(event.target.value);
+              }}
             />
+            <Combobox.Options>
+              {filteredAbilities.map((a) => {
+                <Combobox.Option key={a.name} value={a.name}>
+                  {a}
+                </Combobox.Option>;
+              })}
+            </Combobox.Options>
           </div>
         </Combobox>
       </div>
       <div className="flex flex-wrap justify-center">
-        {abilities.map((a) => (
+        {filteredAbilities.map((a) => (
           <AbilityCard key={a.name} ability={a} />
         ))}
       </div>
