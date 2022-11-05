@@ -1,0 +1,62 @@
+/*
+  This example requires Tailwind CSS v3.0+
+  
+  This example requires some changes to your config:
+  
+  ```
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/forms'),
+    ],
+  }
+  ```
+*/
+import { Fragment, useState } from "react";
+import { Combobox, Dialog, Transition } from "@headlessui/react";
+import { MagnifyingGlassIcon } from "@heroicons/react/20/solid";
+import AbilityCard from "./AbilityCard";
+
+function classNames(...classes) {
+  return classes.filter(Boolean).join(" ");
+}
+
+export default function AbilityList({abilities}) {
+  const [query, setQuery] = useState("");
+  const [open, setOpen] = useState(true);
+
+  const filteredAbilities =
+    query === ""
+      ? abilities
+      : abilities.filter((a) => {
+        console.log('Test')
+          return a.name.toLowerCase().includes(query.toLowerCase());
+        });
+
+  return (
+    <div className="flex flex-wrap justify-center">
+      <div className="mx-auto max-w-2xl transform divide-y divide-gray-500 divide-opacity-20 overflow-hidden rounded-xl bg-dank-500 shadow-2xl transition-all">
+        <Combobox onChange={(item) => (window.location = item.url)}>
+          <div className="relative">
+            <MagnifyingGlassIcon
+              className="pointer-events-none absolute top-3.5 left-4 h-5 w-5 text-gray-500"
+              aria-hidden="true"
+            />
+            <Combobox.Input
+              className="h-12 w-full border-0 bg-transparent pl-11 pr-4 text-white placeholder-gray-500 focus:ring-0 sm:text-sm"
+              placeholder="Search..."
+              onChange={(event) => { console.log('Updated query'); setQuery(event.target.value)}}
+            />
+          </div>
+        </Combobox>
+      </div>
+      <div className="flex flex-wrap justify-center">
+        {abilities.map((a) => (
+          <AbilityCard key={a.name} ability={a} />
+        ))}
+      </div>
+    </div>
+  );
+}

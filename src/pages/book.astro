@@ -1,18 +1,20 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import AbilityCard from "../components/AbilityCard.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import allAbilities from "../data/abilities.json"
 import enabledAbilities from "../data/enabled_abilities.json"
+
+import FilterableAbilityList from "../components/FilterableAbilityList"
 ---
 
 <Layout title="Spellbook">
   <Header title="Spellbook"/>
   <main>
-    <div class="flex flex-wrap justify-center">
-      {allAbilities.filter(({id}) => enabledAbilities.includes(id)).map(a => <AbilityCard ability={a}/>)}
-    </div>
+      <FilterableAbilityList client:load abilities={allAbilities.filter(({id}) => enabledAbilities.includes(id))}/>
+      <!-- 
+        {allAbilities.filter(({id}) => enabledAbilities.includes(id)).map(a => <AbilityCard ability={a}/>)}
+      -->
   </main>
   <Footer/>
 </Layout>

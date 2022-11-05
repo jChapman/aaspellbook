@@ -1,4 +1,4 @@
-export interface Ability {
+export default interface Ability {
   name: string;
   id: string;
   categories: Array<string>;
