@@ -1,6 +1,7 @@
 import { ClockIcon } from "@heroicons/react/24/outline";
 export default function AbilityCard(props) {
   const {ability} = props;
+  const values = Array.from(new Set(ability.values));
   return (
     <div className="m-2 rounded-xl bg-dank-600 shadow-lg shadow-dank-900 max-w-lg flex flex-col">
       <header
@@ -24,7 +25,7 @@ export default function AbilityCard(props) {
         {ability.description}
       </div>
       <div id="values" className="p-2">
-        {ability.values.map((val) => (
+        {values.map((val) => (
           <div key={val}>
             <span className="text-purple-400 uppercase">
               {val.split(":")[0]}:
