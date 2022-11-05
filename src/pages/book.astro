@@ -3,18 +3,15 @@ import Layout from "../layouts/Layout.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import allAbilities from "../data/abilities.json"
-import enabledAbilities from "../data/enabled_abilities.json"
-
 import FilterableAbilityList from "../components/FilterableAbilityList"
+
+const enabledAbilities = await fetch('https://double-edge-studios-llc.github.io/enabled_abilities.txt').then(r => r.text()).then(t => t.split('\n').filter(line => !line.startsWith('#') || !line.startsWith('#')))
 ---
 
 <Layout title="Spellbook">
   <Header title="Spellbook"/>
   <main>
       <FilterableAbilityList client:load abilities={allAbilities.filter(({id}) => enabledAbilities.includes(id))}/>
-      <!-- 
-        {allAbilities.filter(({id}) => enabledAbilities.includes(id)).map(a => <AbilityCard ability={a}/>)}
-      -->
   </main>
   <Footer/>
 </Layout>
