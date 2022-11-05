@@ -16,7 +16,7 @@
 */
 import { Fragment, useState } from "react";
 import { Combobox, Dialog, Transition } from "@headlessui/react";
-import { MagnifyingGlassIcon } from "@heroicons/react/20/solid";
+import { MagnifyingGlassIcon } from "@heroicons/react/20/solid/index.js";
 import AbilityCard from "./AbilityCard";
 
 function classNames(...classes) {

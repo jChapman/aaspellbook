@@ -1,4 +1,4 @@
-import { ClockIcon } from "@heroicons/react/24/outline";
+import { ClockIcon } from "@heroicons/react/24/outline/index.js";
 export default function AbilityCard(props) {
   const {ability} = props;
   const values = Array.from(new Set(ability.values));
