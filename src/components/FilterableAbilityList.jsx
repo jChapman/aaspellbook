@@ -36,7 +36,7 @@ export default function AbilityList({ abilities }) {
 
   return (
     <div className="flex flex-col my-4">
-      <div className="mx-auto w-1/2 transform divide-y divide-gray-500 divide-opacity-20 overflow-hidden rounded-xl bg-dank-500 shadow-2xl transition-all">
+      <div className="mx-auto w-1/2 mb-5 transform divide-y overflow-hidden rounded-xl bg-dank-500 shadow-md transition-all shadow-purple-600">
         <Combobox onChange={(item) => (window.location = item.url)}>
           <div className="relative">
             <MagnifyingGlassIcon
