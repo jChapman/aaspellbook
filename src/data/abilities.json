@@ -3,6 +3,10 @@
     "name": "Acid Spray",
     "id": "custom_alchemist_acid_spray",
     "icon": "alchemist_acid_spray",
+    "tags": [
+      "magicDamage",
+      "damageAmplification"
+    ],
     "categories": [
       "ABILITY: Point Target",
       "DAMAGE TYPE: Physical",
@@ -32,6 +36,9 @@
     "name": "Acorn Shot",
     "id": "hoodwink_acorn_shot",
     "icon": "hoodwink_acorn_shot",
+    "tags": [
+      "instantAttack"
+    ],
     "categories": [
       "ABILITY: Unit or Point Target",
       "DAMAGE TYPE: Physical",
@@ -66,6 +73,10 @@
     "name": "Anchor Smash",
     "id": "tidehunter_anchor_smash",
     "icon": "tidehunter_anchor_smash",
+    "tags": [
+      "instantAttack",
+      "spam"
+    ],
     "categories": [
       "ABILITY: No Target",
       "DAMAGE TYPE: Physical",
@@ -99,6 +110,10 @@
     "name": "Ancient Seal",
     "id": "custom_skywrath_mage_ancient_seal",
     "icon": "skywrath_mage_ancient_seal",
+    "tags": [
+      "silence",
+      "damageAmplification"
+    ],
     "categories": [
       "ABILITY: Unit Target",
       "PIERCES SPELL IMMUNITY: No",
@@ -126,6 +141,10 @@
     "name": "Aphotic Shield",
     "id": "custom_abaddon_aphotic_shield",
     "icon": "abaddon_aphotic_shield",
+    "tags": [
+      "buff",
+      "dispel"
+    ],
     "categories": [
       "ABILITY: Unit Target",
       "DAMAGE TYPE: Magical",
@@ -158,6 +177,11 @@
     "name": "Arc Lightning",
     "id": "custom_zuus_arc_lightning",
     "icon": "zuus_arc_lightning",
+    "tags": [
+      "magicDamage",
+      "spam",
+      "damageAmplification"
+    ],
     "categories": [
       "ABILITY: Unit Target",
       "DAMAGE TYPE: Magical",
@@ -182,6 +206,12 @@
     "name": "Arcane Aura",
     "id": "crystal_maiden_brilliance_aura",
     "icon": "crystal_maiden_brilliance_aura",
+    "tags": [
+      "spam",
+      "buff",
+      "passive",
+      "manaRegeneration"
+    ],
     "categories": [
       "ABILITY: Passive",
       "PIERCES SPELL IMMUNITY: Yes"
@@ -202,6 +232,10 @@
     "name": "Arctic Burn",
     "id": "winter_wyvern_arctic_burn",
     "icon": "winter_wyvern_arctic_burn",
+    "tags": [
+      "attackRange",
+      "attackModifier"
+    ],
     "categories": [
       "ABILITY: No Target",
       "DAMAGE TYPE: Magical",
@@ -234,6 +268,11 @@
     "name": "Astral Spirit",
     "id": "custom_elder_titan_ancestral_spirit",
     "icon": "elder_titan_ancestral_spirit",
+    "tags": [
+      "attackDamage",
+      "magicDamage",
+      "magicImmunity"
+    ],
     "categories": [
       "ABILITY: Point Target",
       "DAMAGE TYPE: Magical",
@@ -273,6 +312,12 @@
     "name": "Astral Step",
     "id": "void_spirit_astral_step",
     "icon": "void_spirit_astral_step",
+    "tags": [
+      "mobility",
+      "ultimate",
+      "instantAttack",
+      "magicDamage"
+    ],
     "categories": [
       "ABILITY: Point Target",
       "DAMAGE TYPE: Magical",
@@ -300,6 +345,10 @@
     "name": "Atrophy Aura",
     "id": "custom_abyssal_underlord_atrophy_aura",
     "icon": "abyssal_underlord_atrophy_aura",
+    "tags": [
+      "passive",
+      "attackDamage"
+    ],
     "categories": [
       "ABILITY: Passive",
       "DISPELLABLE: Strong Dispels Only"
@@ -321,6 +370,10 @@
     "name": "Bash of the Deep",
     "id": "custom_slardar_bash_of_the_deep",
     "icon": "slardar_bash",
+    "tags": [
+      "stun",
+      "passive"
+    ],
     "categories": [
       "ABILITY: Passive",
       "DAMAGE TYPE: Physical",
@@ -344,6 +397,11 @@
     "name": "Battle Trance",
     "id": "troll_warlord_battle_trance",
     "icon": "troll_warlord_battle_trance",
+    "tags": [
+      "ultimate",
+      "lifesteal",
+      "attackSpeed"
+    ],
     "categories": [
       "ABILITY: No Target",
       "DISPELLABLE: Strong Dispels Only"
@@ -371,6 +429,12 @@
     "name": "Berserker's Blood",
     "id": "huskar_berserkers_blood",
     "icon": "huskar_berserkers_blood",
+    "tags": [
+      "passive",
+      "healing",
+      "attackSpeed",
+      "stats"
+    ],
     "categories": [
       "ABILITY: Passive"
     ],
@@ -391,6 +455,10 @@
     "name": "Black Hole",
     "id": "enigma_black_hole",
     "icon": "enigma_black_hole",
+    "tags": [
+      "stun",
+      "ultimate"
+    ],
     "categories": [
       "ABILITY: Channeled",
       "DAMAGE TYPE: Pure",
@@ -420,6 +488,10 @@
     "name": "Blade Fury",
     "id": "custom_juggernaut_blade_fury",
     "icon": "juggernaut_blade_fury",
+    "tags": [
+      "magicImmunity",
+      "magicDamage"
+    ],
     "categories": [
       "ABILITY: No Target",
       "DAMAGE TYPE: Magical",
@@ -453,6 +525,11 @@
     "name": "Blink",
     "id": "custom_queenofpain_blink",
     "icon": "queenofpain_blink",
+    "tags": [
+      "mobility",
+      "damageAmplification",
+      "silence"
+    ],
     "categories": [
       "ABILITY: Point Target"
     ],
@@ -480,6 +557,10 @@
     "name": "Bloodlust",
     "id": "ogre_magi_bloodlust",
     "icon": "ogre_magi_bloodlust",
+    "tags": [
+      "attackSpeed",
+      "buff"
+    ],
     "categories": [
       "ABILITY: Auto-Cast",
       "PIERCES SPELL IMMUNITY: Yes",
@@ -512,6 +593,10 @@
     "name": "Bloodrage",
     "id": "bloodseeker_bloodrage",
     "icon": "bloodseeker_bloodrage",
+    "tags": [
+      "attackSpeed",
+      "damageAmplification"
+    ],
     "categories": [
       "ABILITY: Unit Target",
       "PIERCES SPELL IMMUNITY: No",
@@ -541,6 +626,11 @@
     "name": "Borrowed Time",
     "id": "abaddon_borrowed_time",
     "icon": "abaddon_borrowed_time",
+    "tags": [
+      "passive",
+      "dispel",
+      "ultimate"
+    ],
     "categories": [
       "ABILITY: No Target",
       "DISPELLABLE: Strong Dispels Only"
@@ -568,6 +658,11 @@
     "name": "Boundless Strike",
     "id": "monkey_king_boundless_strike",
     "icon": "monkey_king_boundless_strike",
+    "tags": [
+      "stun",
+      "instantAttack",
+      "silence"
+    ],
     "categories": [
       "ABILITY: Point Target",
       "DAMAGE TYPE: Physical",
@@ -597,6 +692,9 @@
     "name": "Brain Sap",
     "id": "bane_brain_sap",
     "icon": "bane_brain_sap",
+    "tags": [
+      "healing"
+    ],
     "categories": [
       "ABILITY: Unit Target",
       "DAMAGE TYPE: Pure",
@@ -626,6 +724,9 @@
     "name": "Burning Barrage",
     "id": "clinkz_strafe",
     "icon": "clinkz_strafe",
+    "tags": [
+      "instantAttack"
+    ],
     "categories": [
       "ABILITY: Point Target",
       "DAMAGE TYPE: Physical",
@@ -657,6 +758,10 @@
     "name": "Burrowstrike",
     "id": "sandking_burrowstrike",
     "icon": "sandking_burrowstrike",
+    "tags": [
+      "mobility",
+      "stun"
+    ],
     "categories": [
       "ABILITY: Unit or Point Target",
       "DAMAGE TYPE: Magical",
@@ -689,6 +794,10 @@
     "name": "Call of the Wild",
     "id": "custom_beastmaster_call_of_the_wild",
     "icon": "custom_beastmaster_call_of_the_wild",
+    "tags": [
+      "summons",
+      "stun"
+    ],
     "categories": [
       "ABILITY: Point Target"
     ],
@@ -720,6 +829,10 @@
     "name": "Chain Frost",
     "id": "custom_lich_chain_frost",
     "icon": "lich_chain_frost",
+    "tags": [
+      "magicDamage",
+      "ultimate"
+    ],
     "categories": [
       "ABILITY: Unit Target",
       "DAMAGE TYPE: Magical",
@@ -754,6 +867,10 @@
     "name": "Chakra Magic",
     "id": "keeper_of_the_light_chakra_magic",
     "icon": "keeper_of_the_light_chakra_magic",
+    "tags": [
+      "manaRegeneration",
+      "buff"
+    ],
     "categories": [
       "ABILITY: Unit Target",
       "PIERCES SPELL IMMUNITY: Yes"
@@ -780,6 +897,10 @@
     "name": "Chaos Strike",
     "id": "custom_chaos_knight_chaos_strike",
     "icon": "chaos_knight_chaos_strike",
+    "tags": [
+      "passive",
+      "lifesteal"
+    ],
     "categories": [
       "ABILITY: Passive",
       "PIERCES SPELL IMMUNITY: Yes"
@@ -801,6 +922,11 @@
     "name": "Chaotic Offering",
     "id": "custom_warlock_chaotic_offering",
     "icon": "warlock_rain_of_chaos",
+    "tags": [
+      "ultimate",
+      "summons",
+      "stun"
+    ],
     "categories": [
       "ABILITY: Point Target",
       "DAMAGE TYPE: Magical",
@@ -831,6 +957,11 @@
     "name": "Charge of Darkness",
     "id": "custom_spirit_breaker_charge_of_darkness",
     "icon": "spirit_breaker_charge_of_darkness",
+    "tags": [
+      "mobility",
+      "stun",
+      "magicImmunity"
+    ],
     "categories": [
       "ABILITY: Unit Target",
       "PIERCES SPELL IMMUNITY: No",
@@ -858,6 +989,12 @@
     "name": "Chemical Rage",
     "id": "alchemist_chemical_rage",
     "icon": "alchemist_chemical_rage",
+    "tags": [
+      "ultimate",
+      "attackSpeed",
+      "healing",
+      "mobility"
+    ],
     "categories": [
       "ABILITY: No Target",
       "DISPELLABLE: Strong Dispels Only"
@@ -886,6 +1023,11 @@
     "name": "Chronosphere",
     "id": "custom_faceless_void_chronosphere",
     "icon": "faceless_void_chronosphere",
+    "tags": [
+      "stun",
+      "ultimate",
+      "attackSpeed"
+    ],
     "categories": [
       "ABILITY: Point Target",
       "PIERCES SPELL IMMUNITY: Yes",
@@ -914,6 +1056,12 @@
     "name": "Cold Embrace",
     "id": "custom_winter_wyvern_cold_embrace",
     "icon": "winter_wyvern_cold_embrace",
+    "tags": [
+      "healing",
+      "buff",
+      "magicDamage",
+      "stun"
+    ],
     "categories": [
       "ABILITY: Unit Target",
       "PIERCES SPELL IMMUNITY: Yes",
@@ -945,6 +1093,11 @@
     "name": "Corrosive Haze",
     "id": "slardar_amplify_damage",
     "icon": "slardar_amplify_damage",
+    "tags": [
+      "ultimate",
+      "damageAmplification",
+      "spam"
+    ],
     "categories": [
       "ABILITY: Unit Target",
       "PIERCES SPELL IMMUNITY: Yes",
@@ -970,6 +1123,9 @@
     "name": "Corrosive Skin",
     "id": "viper_corrosive_skin",
     "icon": "viper_corrosive_skin",
+    "tags": [
+      "passive"
+    ],
     "categories": [
       "ABILITY: Passive",
       "DAMAGE TYPE: Magical",
@@ -994,6 +1150,9 @@
     "name": "Counter Helix",
     "id": "custom_axe_counter_helix",
     "icon": "axe_counter_helix",
+    "tags": [
+      "passive"
+    ],
     "categories": [
       "ABILITY: Passive",
       "DAMAGE TYPE: Pure",
@@ -1017,6 +1176,11 @@
     "name": "Coup de Grace",
     "id": "custom_phantom_assassin_coup_de_grace",
     "icon": "phantom_assassin_coup_de_grace",
+    "tags": [
+      "ultimate",
+      "passive",
+      "break"
+    ],
     "categories": [
       "ABILITY: Passive",
       "PIERCES SPELL IMMUNITY: Yes"
@@ -1036,6 +1200,9 @@
     "name": "Culling Blade",
     "id": "custom_axe_culling_blade",
     "icon": "axe_culling_blade",
+    "tags": [
+      "ultimate"
+    ],
     "categories": [
       "ABILITY: Unit Target",
       "DAMAGE TYPE: Pure",
@@ -1069,6 +1236,11 @@
     "name": "Curse of Avernus",
     "id": "custom_abaddon_curse_of_avernus",
     "icon": "abaddon_frostmourne",
+    "tags": [
+      "silence",
+      "attackSpeed",
+      "passive"
+    ],
     "categories": [
       "ABILITY: Passive",
       "PIERCES SPELL IMMUNITY: No",
@@ -1092,6 +1264,10 @@
     "name": "Dark Pact",
     "id": "slark_dark_pact",
     "icon": "slark_dark_pact",
+    "tags": [
+      "dispel",
+      "magicDamage"
+    ],
     "categories": [
       "ABILITY: No Target",
       "DAMAGE TYPE: Magical",
@@ -1120,6 +1296,11 @@
     "name": "Death Pulse",
     "id": "custom_necrolyte_death_pulse",
     "icon": "necrolyte_death_pulse",
+    "tags": [
+      "healing",
+      "magicDamage",
+      "spam"
+    ],
     "categories": [
       "ABILITY: No Target",
       "DAMAGE TYPE: Magical",
@@ -1152,6 +1333,9 @@
     "name": "Death Ward",
     "id": "custom_witch_doctor_death_ward",
     "icon": "witch_doctor_death_ward",
+    "tags": [
+      "ultimate"
+    ],
     "categories": [
       "ABILITY: Channeled",
       "DAMAGE TYPE: Physical",
@@ -1178,6 +1362,11 @@
     "name": "Decay",
     "id": "custom_undying_decay",
     "icon": "undying_decay",
+    "tags": [
+      "magicDamage",
+      "stats",
+      "spam"
+    ],
     "categories": [
       "ABILITY: Point Target",
       "DAMAGE TYPE: Magical",
@@ -1211,6 +1400,11 @@
     "name": "Demonic Cleanse",
     "id": "custom_shadow_demon_demonic_cleanse",
     "icon": "shadow_demon_demonic_cleanse",
+    "tags": [
+      "healing",
+      "dispel",
+      "ultimate"
+    ],
     "categories": [
       "ABILITY: Unit Target",
       "PIERCES SPELL IMMUNITY: Yes",
@@ -1235,6 +1429,12 @@
     "name": "Demonic Purge",
     "id": "custom_shadow_demon_demonic_purge",
     "icon": "shadow_demon_demonic_purge",
+    "tags": [
+      "ultimate",
+      "break",
+      "magicDamage",
+      "dispel"
+    ],
     "categories": [
       "ABILITY: Unit Target",
       "DAMAGE TYPE: Magical",
@@ -1262,6 +1462,9 @@
     "name": "Dispersion",
     "id": "custom_spectre_dispersion",
     "icon": "spectre_dispersion",
+    "tags": [
+      "passive"
+    ],
     "categories": [
       "ABILITY: Passive",
       "PIERCES SPELL IMMUNITY: Yes"
@@ -1282,6 +1485,11 @@
     "name": "Dispose",
     "id": "marci_grapple",
     "icon": "marci_grapple",
+    "tags": [
+      "displacement",
+      "stun",
+      "magicDamage"
+    ],
     "categories": [
       "ABILITY: Unit Target",
       "DAMAGE TYPE: Magical",
@@ -1312,6 +1520,9 @@
     "name": "Disruption",
     "id": "custom_shadow_demon_disruption",
     "icon": "shadow_demon_disruption",
+    "tags": [
+      "stun"
+    ],
     "categories": [
       "ABILITY: Unit Target",
       "PIERCES SPELL IMMUNITY: No",
@@ -1344,6 +1555,10 @@
     "name": "Dissimilate",
     "id": "custom_void_spirit_dissimilate",
     "icon": "void_spirit_dissimilate",
+    "tags": [
+      "mobility",
+      "magicDamage"
+    ],
     "categories": [
       "ABILITY: No Target",
       "DAMAGE TYPE: Magical",
@@ -1374,6 +1589,10 @@
     "name": "Double Edge",
     "id": "centaur_double_edge",
     "icon": "centaur_double_edge",
+    "tags": [
+      "magicDamage",
+      "stats"
+    ],
     "categories": [
       "ABILITY: Unit Target",
       "DAMAGE TYPE: Magical",
@@ -1401,6 +1620,10 @@
     "name": "Dragon Blood",
     "id": "custom_dragon_knight_dragon_blood",
     "icon": "dragon_knight_dragon_blood",
+    "tags": [
+      "passive",
+      "healing"
+    ],
     "categories": [
       "ABILITY: Passive"
     ],
@@ -1419,6 +1642,9 @@
     "name": "Dragon Slave",
     "id": "custom_lina_dragon_slave",
     "icon": "lina_dragon_slave",
+    "tags": [
+      "magicDamage"
+    ],
     "categories": [
       "ABILITY: Unit or Point Target",
       "DAMAGE TYPE: Magical",
@@ -1445,6 +1671,11 @@
     "name": "Duel",
     "id": "legion_commander_duel",
     "icon": "legion_commander_duel",
+    "tags": [
+      "ultimate",
+      "attackDamage",
+      "stun"
+    ],
     "categories": [
       "ABILITY: Unit Target",
       "PIERCES SPELL IMMUNITY: Yes",
@@ -1472,6 +1703,10 @@
     "name": "Earthshock",
     "id": "custom_ursa_earthshock",
     "icon": "ursa_earthshock",
+    "tags": [
+      "mobility",
+      "magicDamage"
+    ],
     "categories": [
       "ABILITY: No Target",
       "DAMAGE TYPE: Magical",
@@ -1501,6 +1736,11 @@
     "name": "Elder Dragon Form",
     "id": "dragon_knight_elder_dragon_form",
     "icon": "dragon_knight_elder_dragon_form",
+    "tags": [
+      "ultimate",
+      "attackRange",
+      "attackModifier"
+    ],
     "categories": [
       "ABILITY: No Target",
       "DAMAGE TYPE: Magical",
@@ -1532,6 +1772,10 @@
     "name": "Empower",
     "id": "custom_magnataur_empower",
     "icon": "magnataur_empower",
+    "tags": [
+      "buff",
+      "attackDamage"
+    ],
     "categories": [
       "ABILITY: Unit Target",
       "PIERCES SPELL IMMUNITY: Yes",
@@ -1560,6 +1804,9 @@
     "name": "Enchant Totem",
     "id": "custom_earthshaker_enchant_totem",
     "icon": "earthshaker_enchant_totem",
+    "tags": [
+      "attackDamage"
+    ],
     "categories": [
       "ABILITY: No Target",
       "DISPELLABLE: Yes"
@@ -1586,6 +1833,10 @@
     "name": "Epicenter",
     "id": "custom_sandking_epicenter",
     "icon": "sandking_epicenter",
+    "tags": [
+      "ultimate",
+      "magicDamage"
+    ],
     "categories": [
       "ABILITY: No Target",
       "DAMAGE TYPE: Magical",
@@ -1620,6 +1871,12 @@
     "name": "Essence Flux",
     "id": "obsidian_destroyer_equilibrium",
     "icon": "obsidian_destroyer_equilibrium",
+    "tags": [
+      "manaRegeneration",
+      "passive",
+      "damageAmplification",
+      "attackRange"
+    ],
     "categories": [
       "ABILITY: Passive"
     ],
@@ -1638,6 +1895,10 @@
     "name": "Eye of the Storm",
     "id": "custom_razor_eye_of_the_storm",
     "icon": "razor_eye_of_the_storm",
+    "tags": [
+      "ultimate",
+      "damageAmplification"
+    ],
     "categories": [
       "ABILITY: No Target",
       "DAMAGE TYPE: Physical",
@@ -1671,6 +1932,11 @@
     "name": "Fade Bolt",
     "id": "rubick_fade_bolt",
     "icon": "rubick_fade_bolt",
+    "tags": [
+      "magicDamage",
+      "instantAttack",
+      "attackDamage"
+    ],
     "categories": [
       "ABILITY: Unit Target",
       "DAMAGE TYPE: Magical",
@@ -1704,6 +1970,12 @@
     "name": "False Promise",
     "id": "oracle_false_promise",
     "icon": "oracle_false_promise",
+    "tags": [
+      "ultimate",
+      "healing",
+      "buff",
+      "lifesteal"
+    ],
     "categories": [
       "ABILITY: Unit Target",
       "PIERCES SPELL IMMUNITY: Yes",
@@ -1733,6 +2005,10 @@
     "name": "Feast",
     "id": "life_stealer_feast",
     "icon": "life_stealer_feast",
+    "tags": [
+      "passive",
+      "lifesteal"
+    ],
     "categories": [
       "ABILITY: Passive",
       "PIERCES SPELL IMMUNITY: Yes"
@@ -1752,6 +2028,12 @@
     "name": "Feral Impulse",
     "id": "custom_lycan_feral_impulse",
     "icon": "lycan_feral_impulse",
+    "tags": [
+      "summons",
+      "attackDamage",
+      "passive",
+      "damageAmplification"
+    ],
     "categories": [
       "ABILITY: Passive"
     ],
@@ -1770,6 +2052,13 @@
     "name": "Fervor",
     "id": "troll_warlord_fervor",
     "icon": "troll_warlord_fervor",
+    "tags": [
+      "passive",
+      "attackSpeed",
+      "stats",
+      "dispel",
+      "lifesteal"
+    ],
     "categories": [
       "ABILITY: Passive",
       "DISPELLABLE: Strong Dispels Only"
@@ -1789,6 +2078,10 @@
     "name": "Fiend's Grip",
     "id": "custom_bane_fiends_grip",
     "icon": "bane_fiends_grip",
+    "tags": [
+      "ultimate",
+      "stun"
+    ],
     "categories": [
       "ABILITY: Channeled",
       "DAMAGE TYPE: Pure",
@@ -1819,6 +2112,11 @@
     "name": "Fiery Soul",
     "id": "custom_lina_fiery_soul",
     "icon": "lina_fiery_soul",
+    "tags": [
+      "attackSpeed",
+      "passive",
+      "spam"
+    ],
     "categories": [
       "ABILITY: Passive",
       "DISPELLABLE: Strong Dispels Only"
@@ -1840,6 +2138,11 @@
     "name": "Finger of Death",
     "id": "custom_lion_finger_of_death",
     "icon": "lion_finger_of_death",
+    "tags": [
+      "ultimate",
+      "magicDamage",
+      "stats"
+    ],
     "categories": [
       "ABILITY: Unit Target",
       "DAMAGE TYPE: Magical",
@@ -1869,6 +2172,13 @@
     "name": "Firesnap Cookie",
     "id": "custom_snapfire_firesnap_cookie",
     "icon": "snapfire_firesnap_cookie",
+    "tags": [
+      "healing",
+      "stun",
+      "buff",
+      "mobility",
+      "magicDamage"
+    ],
     "categories": [
       "ABILITY: Unit Target",
       "DAMAGE TYPE: Magical",
@@ -1898,6 +2208,10 @@
     "name": "Fissure",
     "id": "custom_earthshaker_fissure",
     "icon": "earthshaker_fissure",
+    "tags": [
+      "stun",
+      "magicDamage"
+    ],
     "categories": [
       "ABILITY: Point Target",
       "DAMAGE TYPE: Magical",
@@ -1931,6 +2245,9 @@
     "name": "Flak Cannon",
     "id": "gyrocopter_flak_cannon",
     "icon": "gyrocopter_flak_cannon",
+    "tags": [
+      "instantAttack"
+    ],
     "categories": [
       "ABILITY: No Target",
       "DAMAGE TYPE: Physical",
@@ -1959,6 +2276,9 @@
     "name": "Flame Guard",
     "id": "custom_ember_spirit_flame_guard",
     "icon": "ember_spirit_flame_guard",
+    "tags": [
+      "magicDamage"
+    ],
     "categories": [
       "ABILITY: No Target",
       "DAMAGE TYPE: Magical",
@@ -1989,6 +2309,12 @@
     "name": "Flesh Golem",
     "id": "undying_flesh_golem",
     "icon": "undying_flesh_golem",
+    "tags": [
+      "ultimate",
+      "stats",
+      "damageAmplification",
+      "summons"
+    ],
     "categories": [
       "ABILITY: No Target",
       "DAMAGE TYPE: Magical",
@@ -2020,6 +2346,10 @@
     "name": "Flesh Heap",
     "id": "custom_pudge_flesh_heap",
     "icon": "pudge_flesh_heap",
+    "tags": [
+      "passive",
+      "stats"
+    ],
     "categories": [
       "ABILITY: No Target",
       "DISPELLABLE: Strong Dispels Only"
@@ -2051,6 +2381,10 @@
     "name": "Focus Fire",
     "id": "custom_windrunner_focusfire",
     "icon": "windrunner_focusfire",
+    "tags": [
+      "ultimate",
+      "attackSpeed"
+    ],
     "categories": [
       "ABILITY: Unit Target",
       "PIERCES SPELL IMMUNITY: Yes",
@@ -2079,6 +2413,11 @@
     "name": "Fortune's End",
     "id": "custom_oracle_fortunes_end",
     "icon": "oracle_fortunes_end",
+    "tags": [
+      "magicDamage",
+      "dispel",
+      "healing"
+    ],
     "categories": [
       "ABILITY: Unit Target",
       "DAMAGE TYPE: Magical",
@@ -2108,6 +2447,10 @@
     "name": "Freezing Field",
     "id": "custom_crystal_maiden_freezing_field",
     "icon": "crystal_maiden_freezing_field",
+    "tags": [
+      "ultimate",
+      "magicDamage"
+    ],
     "categories": [
       "ABILITY: Channeled",
       "DAMAGE TYPE: Magical",
@@ -2141,6 +2484,10 @@
     "name": "Frost Arrows",
     "id": "custom_drow_ranger_frost_arrows",
     "icon": "drow_ranger_frost_arrows",
+    "tags": [
+      "attackModifier",
+      "attackRange"
+    ],
     "categories": [
       "ABILITY: Auto-Cast",
       "DAMAGE TYPE: Physical",
@@ -2169,6 +2516,11 @@
     "name": "Frost Shield",
     "id": "lich_frost_shield",
     "icon": "lich_frost_shield",
+    "tags": [
+      "buff",
+      "healing",
+      "magicDamage"
+    ],
     "categories": [
       "ABILITY: Unit Target",
       "DAMAGE TYPE: Magical",
@@ -2203,6 +2555,10 @@
     "name": "Frostbite",
     "id": "crystal_maiden_frostbite",
     "icon": "crystal_maiden_frostbite",
+    "tags": [
+      "magicDamage",
+      "damageAmplification"
+    ],
     "categories": [
       "ABILITY: Unit Target",
       "DAMAGE TYPE: Magical",
@@ -2237,6 +2593,10 @@
     "name": "Fury Swipes",
     "id": "ursa_fury_swipes",
     "icon": "ursa_fury_swipes",
+    "tags": [
+      "attackModifier",
+      "passive"
+    ],
     "categories": [
       "ABILITY: Passive",
       "DAMAGE TYPE: Physical",
@@ -2259,6 +2619,12 @@
     "name": "Ghostship",
     "id": "kunkka_ghostship",
     "icon": "kunkka_ghostship",
+    "tags": [
+      "ultimate",
+      "stun",
+      "magicDamage",
+      "buff"
+    ],
     "categories": [
       "ABILITY: Point Target",
       "DAMAGE TYPE: Magical",
@@ -2294,6 +2660,10 @@
     "name": "Glaives of Wisdom",
     "id": "custom_silencer_glaives_of_wisdom",
     "icon": "silencer_glaives_of_wisdom",
+    "tags": [
+      "attackModifier",
+      "stats"
+    ],
     "categories": [
       "ABILITY: Auto-Cast",
       "DAMAGE TYPE: Pure",
@@ -2319,6 +2689,10 @@
     "name": "Global Silence",
     "id": "custom_silencer_global_silence",
     "icon": "silencer_global_silence",
+    "tags": [
+      "silence",
+      "ultimate"
+    ],
     "categories": [
       "ABILITY: No Target",
       "PIERCES SPELL IMMUNITY: Yes",
@@ -2346,6 +2720,10 @@
     "name": "God's Rebuke",
     "id": "mars_gods_rebuke",
     "icon": "mars_gods_rebuke",
+    "tags": [
+      "instantAttack",
+      "displacement"
+    ],
     "categories": [
       "ABILITY: Point Target",
       "DAMAGE TYPE: Physical"
@@ -2375,6 +2753,11 @@
     "name": "Grave Chill",
     "id": "custom_visage_grave_chill",
     "icon": "visage_grave_chill",
+    "tags": [
+      "summons",
+      "attackSpeed",
+      "mobility"
+    ],
     "categories": [
       "ABILITY: Unit Target",
       "PIERCES SPELL IMMUNITY: No",
@@ -2403,6 +2786,11 @@
     "name": "Grow",
     "id": "tiny_grow",
     "icon": "tiny_grow",
+    "tags": [
+      "ultimate",
+      "passive",
+      "attackDamage"
+    ],
     "categories": [
       "ABILITY: Passive"
     ],
@@ -2424,6 +2812,10 @@
     "name": "Gust",
     "id": "custom_drow_ranger_wave_of_silence",
     "icon": "drow_ranger_wave_of_silence",
+    "tags": [
+      "silence",
+      "displacement"
+    ],
     "categories": [
       "ABILITY: Point Target",
       "PIERCES SPELL IMMUNITY: No",
@@ -2454,6 +2846,12 @@
     "name": "Hand of Gaben",
     "id": "chen_hand_of_god",
     "icon": "chen_hand_of_god",
+    "tags": [
+      "ultimate",
+      "healing",
+      "buff",
+      "dispel"
+    ],
     "categories": [
       "ABILITY: No Target",
       "PIERCES SPELL IMMUNITY: Yes",
@@ -2482,6 +2880,11 @@
     "name": "Heavenly Grace",
     "id": "custom_omniknight_repel",
     "icon": "omniknight_repel",
+    "tags": [
+      "buff",
+      "healing",
+      "stats"
+    ],
     "categories": [
       "ABILITY: Unit Target",
       "PIERCES SPELL IMMUNITY: Yes",
@@ -2514,6 +2917,10 @@
     "name": "Hex",
     "id": "custom_shadow_shaman_voodoo",
     "icon": "shadow_shaman_voodoo",
+    "tags": [
+      "stun",
+      "break"
+    ],
     "categories": [
       "ABILITY: Unit Target",
       "PIERCES SPELL IMMUNITY: No",
@@ -2540,6 +2947,12 @@
     "name": "Icarus Dive",
     "id": "phoenix_icarus_dive",
     "icon": "phoenix_icarus_dive",
+    "tags": [
+      "mobility",
+      "stun",
+      "magicDamage",
+      "magicImmunity"
+    ],
     "categories": [
       "ABILITY: Point Target",
       "DAMAGE TYPE: Magical",
@@ -2571,6 +2984,10 @@
     "name": "Ice Blast",
     "id": "custom_ancient_apparition_ice_blast",
     "icon": "ancient_apparition_ice_blast",
+    "tags": [
+      "ultimate",
+      "magicDamage"
+    ],
     "categories": [
       "ABILITY: Point Target",
       "DAMAGE TYPE: Magical",
@@ -2600,6 +3017,7 @@
     "name": "Ice Shards",
     "id": "custom_tusk_ice_shards",
     "icon": "tusk_ice_shards",
+    "tags": [],
     "categories": [
       "ABILITY: Point Target",
       "DAMAGE TYPE: Magical",
@@ -2628,6 +3046,10 @@
     "name": "Impetus",
     "id": "enchantress_impetus",
     "icon": "enchantress_impetus",
+    "tags": [
+      "attackRange",
+      "attackModifier"
+    ],
     "categories": [
       "ABILITY: Auto-Cast",
       "DAMAGE TYPE: Pure",
@@ -2654,6 +3076,12 @@
     "name": "Infernal Blade",
     "id": "doom_bringer_infernal_blade",
     "icon": "doom_bringer_infernal_blade",
+    "tags": [
+      "magicDamage",
+      "stun",
+      "attackModifier",
+      "break"
+    ],
     "categories": [
       "ABILITY: Auto-Cast",
       "DAMAGE TYPE: Magical",
@@ -2684,6 +3112,12 @@
     "name": "Ink Swell",
     "id": "custom_grimstroke_ink_swell",
     "icon": "grimstroke_spirit_walk",
+    "tags": [
+      "buff",
+      "stun",
+      "healing",
+      "magicDamage"
+    ],
     "categories": [
       "ABILITY: Unit Target",
       "DAMAGE TYPE: Magical",
@@ -2721,6 +3155,11 @@
     "name": "Inner Beast",
     "id": "custom_beastmaster_inner_beast",
     "icon": "beastmaster_inner_beast",
+    "tags": [
+      "passive",
+      "attackSpeed",
+      "buff"
+    ],
     "categories": [
       "ABILITY: Passive",
       "PIERCES SPELL IMMUNITY: Yes"
@@ -2740,6 +3179,10 @@
     "name": "Inner Fire",
     "id": "custom_huskar_inner_fire",
     "icon": "huskar_inner_fire",
+    "tags": [
+      "healing",
+      "displacement"
+    ],
     "categories": [
       "ABILITY: No Target",
       "DAMAGE TYPE: Magical",
@@ -2772,6 +3215,10 @@
     "name": "Insatiable Hunger",
     "id": "broodmother_insatiable_hunger",
     "icon": "broodmother_insatiable_hunger",
+    "tags": [
+      "attackDamage",
+      "lifesteal"
+    ],
     "categories": [
       "ABILITY: No Target",
       "DISPELLABLE: Strong Dispels Only"
@@ -2802,6 +3249,11 @@
     "name": "Jingu Mastery",
     "id": "custom_monkey_king_jingu_mastery",
     "icon": "monkey_king_jingu_mastery",
+    "tags": [
+      "passive",
+      "attackDamage",
+      "lifesteal"
+    ],
     "categories": [
       "ABILITY: Passive",
       "PIERCES SPELL IMMUNITY: Yes",
@@ -2827,6 +3279,10 @@
     "name": "Kraken Shell",
     "id": "tidehunter_kraken_shell",
     "icon": "tidehunter_kraken_shell",
+    "tags": [
+      "dispel",
+      "passive"
+    ],
     "categories": [
       "ABILITY: Passive"
     ],
@@ -2846,6 +3302,7 @@
     "name": "Laser",
     "id": "custom_tinker_laser",
     "icon": "tinker_laser",
+    "tags": [],
     "categories": [
       "ABILITY: Unit Target",
       "DAMAGE TYPE: Pure",
@@ -2882,6 +3339,10 @@
     "name": "Leech Seed",
     "id": "treant_leech_seed",
     "icon": "treant_leech_seed",
+    "tags": [
+      "healing",
+      "magicDamage"
+    ],
     "categories": [
       "ABILITY: Unit Target",
       "DAMAGE TYPE: Magical",
@@ -2915,6 +3376,11 @@
     "name": "Life Break",
     "id": "huskar_life_break",
     "icon": "huskar_life_break",
+    "tags": [
+      "ultimate",
+      "magicDamage",
+      "mobility"
+    ],
     "categories": [
       "ABILITY: Unit Target",
       "DAMAGE TYPE: Magical",
@@ -2946,6 +3412,10 @@
     "name": "Life Drain",
     "id": "custom_pugna_life_drain",
     "icon": "pugna_life_drain",
+    "tags": [
+      "ultimate",
+      "healing"
+    ],
     "categories": [
       "ABILITY: Channeled",
       "DAMAGE TYPE: Magical",
@@ -2972,6 +3442,10 @@
     "name": "Lightning Bolt",
     "id": "zuus_lightning_bolt",
     "icon": "zuus_lightning_bolt",
+    "tags": [
+      "magicDamage",
+      "stun"
+    ],
     "categories": [
       "ABILITY: Unit or Point Target",
       "DAMAGE TYPE: Magical",
@@ -3004,6 +3478,11 @@
     "name": "Lil' Shredder",
     "id": "custom_snapfire_lil_shredder",
     "icon": "snapfire_lil_shredder",
+    "tags": [
+      "attackSpeed",
+      "damageAmplification",
+      "instantAttack"
+    ],
     "categories": [
       "ABILITY: No Target",
       "DAMAGE TYPE: Physical"
@@ -3036,6 +3515,10 @@
     "name": "Lucent Beam",
     "id": "custom_luna_lucent_beam",
     "icon": "luna_lucent_beam",
+    "tags": [
+      "magicDamage",
+      "stun"
+    ],
     "categories": [
       "ABILITY: Unit Target",
       "DAMAGE TYPE: Magical",
@@ -3067,6 +3550,10 @@
     "name": "Luminosity",
     "id": "custom_dawnbreaker_luminosity",
     "icon": "dawnbreaker_luminosity",
+    "tags": [
+      "passive",
+      "healing"
+    ],
     "categories": [
       "ABILITY: Passive",
       "PIERCES SPELL IMMUNITY: Yes"
@@ -3087,6 +3574,12 @@
     "name": "Lunar Blessing",
     "id": "luna_lunar_blessing",
     "icon": "luna_lunar_blessing",
+    "tags": [
+      "buff",
+      "attackDamage",
+      "passive",
+      "attackSpeed"
+    ],
     "categories": [
       "ABILITY: Passive",
       "PIERCES SPELL IMMUNITY: Yes"
@@ -3107,6 +3600,11 @@
     "name": "Magic Missile",
     "id": "custom_vengefulspirit_magic_missile",
     "icon": "vengefulspirit_magic_missile",
+    "tags": [
+      "magicDamage",
+      "stun",
+      "break"
+    ],
     "categories": [
       "ABILITY: Unit Target",
       "DAMAGE TYPE: Magical",
@@ -3138,6 +3636,10 @@
     "name": "Magnetic Field",
     "id": "arc_warden_magnetic_field",
     "icon": "arc_warden_magnetic_field",
+    "tags": [
+      "buff",
+      "attackSpeed"
+    ],
     "categories": [
       "ABILITY: Point Target",
       "PIERCES SPELL IMMUNITY: Yes"
@@ -3166,6 +3668,10 @@
     "name": "Mana Break",
     "id": "antimage_mana_break",
     "icon": "antimage_mana_break",
+    "tags": [
+      "passive",
+      "attackModifier"
+    ],
     "categories": [
       "ABILITY: Passive",
       "DAMAGE TYPE: Physical",
@@ -3189,6 +3695,9 @@
     "name": "Meat Hook",
     "id": "custom_pudge_meat_hook",
     "icon": "pudge_meat_hook",
+    "tags": [
+      "displacement"
+    ],
     "categories": [
       "ABILITY: Point Target",
       "DAMAGE TYPE: Pure",
@@ -3216,6 +3725,9 @@
     "name": "Mirror Image",
     "id": "custom_naga_siren_mirror_image",
     "icon": "naga_siren_mirror_image",
+    "tags": [
+      "dispel"
+    ],
     "categories": [
       "ABILITY: No Target"
     ],
@@ -3246,6 +3758,12 @@
     "name": "Mist Coil",
     "id": "custom_abaddon_death_coil",
     "icon": "abaddon_death_coil",
+    "tags": [
+      "healing",
+      "instantAttack",
+      "damageAmplification",
+      "buff"
+    ],
     "categories": [
       "ABILITY: Unit Target",
       "DAMAGE TYPE: Magical",
@@ -3271,6 +3789,10 @@
     "name": "Moment of Courage",
     "id": "legion_commander_moment_of_courage",
     "icon": "legion_commander_moment_of_courage",
+    "tags": [
+      "passive",
+      "lifesteal"
+    ],
     "categories": [
       "ABILITY: Passive"
     ],
@@ -3294,6 +3816,10 @@
     "name": "Moon Glaives",
     "id": "custom_luna_moon_glaive",
     "icon": "luna_moon_glaive",
+    "tags": [
+      "instantAttack",
+      "passive"
+    ],
     "categories": [
       "ABILITY: Passive",
       "PIERCES SPELL IMMUNITY: Yes"
@@ -3314,6 +3840,11 @@
     "name": "Mortimer Kisses",
     "id": "custom_snapfire_mortimer_kisses",
     "icon": "snapfire_mortimer_kisses",
+    "tags": [
+      "ultimate",
+      "magicDamage",
+      "mobility"
+    ],
     "categories": [
       "ABILITY: Point Target",
       "DAMAGE TYPE: Magical",
@@ -3347,6 +3878,9 @@
     "name": "Multishot",
     "id": "custom_drow_ranger_multishot",
     "icon": "drow_ranger_multishot",
+    "tags": [
+      "instantAttack"
+    ],
     "categories": [
       "ABILITY: Point Target",
       "DAMAGE TYPE: Physical",
@@ -3380,6 +3914,10 @@
     "name": "Mystic Flare",
     "id": "custom_skywrath_mage_mystic_flare",
     "icon": "skywrath_mage_mystic_flare",
+    "tags": [
+      "ultimate",
+      "magicDamage"
+    ],
     "categories": [
       "ABILITY: Point Target",
       "DAMAGE TYPE: Magical",
@@ -3409,6 +3947,9 @@
     "name": "Nature's Attendants",
     "id": "custom_enchantress_natures_attendants",
     "icon": "enchantress_natures_attendants",
+    "tags": [
+      "healing"
+    ],
     "categories": [
       "ABILITY: No Target",
       "PIERCES SPELL IMMUNITY: Yes",
@@ -3434,6 +3975,9 @@
     "name": "Nature's Call",
     "id": "custom_furion_force_of_nature",
     "icon": "furion_force_of_nature",
+    "tags": [
+      "summons"
+    ],
     "categories": [
       "ABILITY: Point Target"
     ],
@@ -3461,6 +4005,9 @@
     "name": "Nether Swap",
     "id": "vengefulspirit_nether_swap",
     "icon": "vengefulspirit_nether_swap",
+    "tags": [
+      "displacement"
+    ],
     "categories": [
       "ABILITY: Unit Target",
       "DAMAGE TYPE: Magical",
@@ -3491,6 +4038,11 @@
     "name": "Nethertoxin",
     "id": "viper_nethertoxin",
     "icon": "viper_nethertoxin",
+    "tags": [
+      "silence",
+      "break",
+      "magicDamage"
+    ],
     "categories": [
       "ABILITY: Point Target",
       "DAMAGE TYPE: Magical",
@@ -3503,7 +4055,7 @@
       "MAX DPS DURATION: 4",
       "MAX DPS: 15 / 30 / 60",
       "MIN DPS: 15 / 20 / 30",
-      "RADIUS: 300"
+      "RADIUS: 400"
     ],
     "cooldowns": [
       14
@@ -3518,6 +4070,10 @@
     "name": "Omnislash",
     "id": "juggernaut_omni_slash",
     "icon": "juggernaut_omni_slash",
+    "tags": [
+      "instantAttack",
+      "ultimate"
+    ],
     "categories": [
       "ABILITY: Unit Target",
       "DAMAGE TYPE: Physical",
@@ -3550,6 +4106,12 @@
     "name": "Overcharge",
     "id": "wisp_overcharge",
     "icon": "wisp_overcharge",
+    "tags": [
+      "attackSpeed",
+      "buff",
+      "healing",
+      "damageAmplification"
+    ],
     "categories": [
       "ABILITY: No Target",
       "DISPELLABLE: Strong Dispels Only"
@@ -3581,6 +4143,11 @@
     "name": "Overload",
     "id": "custom_storm_spirit_overload",
     "icon": "storm_spirit_overload",
+    "tags": [
+      "spam",
+      "magicDamage",
+      "passive"
+    ],
     "categories": [
       "ABILITY: Passive",
       "DAMAGE TYPE: Magical",
@@ -3604,6 +4171,10 @@
     "name": "Overpower",
     "id": "ursa_overpower",
     "icon": "ursa_overpower",
+    "tags": [
+      "attackSpeed",
+      "stats"
+    ],
     "categories": [
       "ABILITY: No Target",
       "DISPELLABLE: Yes"
@@ -3633,6 +4204,10 @@
     "name": "Paralyzing Cask",
     "id": "witch_doctor_paralyzing_cask",
     "icon": "witch_doctor_paralyzing_cask",
+    "tags": [
+      "stun",
+      "magicDamage"
+    ],
     "categories": [
       "ABILITY: Unit Target",
       "DAMAGE TYPE: Magical",
@@ -3666,6 +4241,7 @@
     "name": "Phantasm",
     "id": "custom_chaos_knight_phantasm",
     "icon": "chaos_knight_phantasm",
+    "tags": [],
     "categories": [
       "ABILITY: No Target"
     ],
@@ -3692,6 +4268,10 @@
     "name": "Phantom Strike",
     "id": "phantom_assassin_phantom_strike",
     "icon": "phantom_assassin_phantom_strike",
+    "tags": [
+      "attackSpeed",
+      "mobility"
+    ],
     "categories": [
       "ABILITY: Unit Target",
       "PIERCES SPELL IMMUNITY: Yes",
@@ -3725,6 +4305,7 @@
     "name": "Phase Shift",
     "id": "puck_phase_shift",
     "icon": "puck_phase_shift",
+    "tags": [],
     "categories": [
       "ABILITY: Channeled"
     ],
@@ -3752,6 +4333,10 @@
     "name": "Plague Ward",
     "id": "custom_venomancer_plague_ward",
     "icon": "venomancer_plague_ward",
+    "tags": [
+      "summons",
+      "spam"
+    ],
     "categories": [
       "ABILITY: Point Target",
       "DAMAGE TYPE: Physical",
@@ -3781,6 +4366,10 @@
     "name": "Plasma Field",
     "id": "razor_plasma_field",
     "icon": "razor_plasma_field",
+    "tags": [
+      "magicDamage",
+      "displacement"
+    ],
     "categories": [
       "ABILITY: No Target",
       "DAMAGE TYPE: Magical",
@@ -3816,6 +4405,11 @@
     "name": "Poison Attack",
     "id": "viper_poison_attack",
     "icon": "viper_poison_attack",
+    "tags": [
+      "attackRange",
+      "damageAmplification",
+      "attackModifier"
+    ],
     "categories": [
       "ABILITY: Auto-Cast",
       "DAMAGE TYPE: Magical",
@@ -3849,6 +4443,12 @@
     "name": "Press The Attack",
     "id": "legion_commander_press_the_attack",
     "icon": "legion_commander_press_the_attack",
+    "tags": [
+      "healing",
+      "attackSpeed",
+      "dispel",
+      "magicImmunity"
+    ],
     "categories": [
       "ABILITY: Unit Target",
       "PIERCES SPELL IMMUNITY: No",
@@ -3877,6 +4477,10 @@
     "name": "Pulse Nova",
     "id": "leshrac_pulse_nova",
     "icon": "leshrac_pulse_nova",
+    "tags": [
+      "magicDamage",
+      "ultimate"
+    ],
     "categories": [
       "ABILITY: Toggle",
       "DAMAGE TYPE: Magical",
@@ -3906,6 +4510,11 @@
     "name": "Pulverize",
     "id": "primal_beast_pulverize",
     "icon": "primal_beast_pulverize",
+    "tags": [
+      "ultimate",
+      "stun",
+      "magicDamage"
+    ],
     "categories": [
       "ABILITY: Channeled",
       "DAMAGE TYPE: Magical"
@@ -3933,6 +4542,10 @@
     "name": "Purification",
     "id": "omniknight_purification",
     "icon": "omniknight_purification",
+    "tags": [
+      "buff",
+      "healing"
+    ],
     "categories": [
       "ABILITY: Unit Target",
       "DAMAGE TYPE: Pure",
@@ -3963,6 +4576,10 @@
     "name": "Quill Spray",
     "id": "custom_bristleback_quill_spray",
     "icon": "bristleback_quill_spray",
+    "tags": [
+      "spam",
+      "magicDamage"
+    ],
     "categories": [
       "ABILITY: No Target",
       "DAMAGE TYPE: Physical",
@@ -3991,6 +4608,9 @@
     "name": "Rage",
     "id": "custom_life_stealer_rage",
     "icon": "life_stealer_rage",
+    "tags": [
+      "magicImmunity"
+    ],
     "categories": [
       "ABILITY: No Target",
       "DISPELLABLE: Strong Dispels Only"
@@ -4020,6 +4640,11 @@
     "name": "Ravage",
     "id": "custom_tidehunter_ravage",
     "icon": "tidehunter_ravage",
+    "tags": [
+      "ultimate",
+      "magicDamage",
+      "stun"
+    ],
     "categories": [
       "ABILITY: No Target",
       "DAMAGE TYPE: Magical",
@@ -4050,6 +4675,10 @@
     "name": "Reactive Armor",
     "id": "shredder_reactive_armor",
     "icon": "shredder_reactive_armor",
+    "tags": [
+      "passive",
+      "healing"
+    ],
     "categories": [
       "ABILITY: Passive",
       "DISPELLABLE: Strong Dispels Only"
@@ -4071,6 +4700,11 @@
     "name": "Reality Rift",
     "id": "custom_chaos_knight_reality_rift",
     "icon": "chaos_knight_reality_rift",
+    "tags": [
+      "mobility",
+      "displacement",
+      "damageAmplification"
+    ],
     "categories": [
       "ABILITY: Unit Target",
       "PIERCES SPELL IMMUNITY: No",
@@ -4099,6 +4733,13 @@
     "name": "Reaper's Scythe",
     "id": "custom_necrolyte_reapers_scythe",
     "icon": "necrolyte_reapers_scythe",
+    "tags": [
+      "ultimate",
+      "magicDamage",
+      "stun",
+      "manaRegeneration",
+      "healing"
+    ],
     "categories": [
       "ABILITY: Unit Target",
       "DAMAGE TYPE: Magical",
@@ -4128,6 +4769,9 @@
     "name": "Refraction",
     "id": "templar_assassin_refraction",
     "icon": "templar_assassin_refraction",
+    "tags": [
+      "attackDamage"
+    ],
     "categories": [
       "ABILITY: No Target",
       "DAMAGE TYPE: Physical",
@@ -4160,6 +4804,10 @@
     "name": "Resonant Pulse",
     "id": "void_spirit_resonant_pulse",
     "icon": "void_spirit_resonant_pulse",
+    "tags": [
+      "magicDamage",
+      "silence"
+    ],
     "categories": [
       "ABILITY: No Target",
       "DAMAGE TYPE: Magical",
@@ -4191,6 +4839,11 @@
     "name": "Rolling Boulder",
     "id": "earth_spirit_rolling_boulder",
     "icon": "earth_spirit_rolling_boulder",
+    "tags": [
+      "mobility",
+      "stun",
+      "stats"
+    ],
     "categories": [
       "ABILITY: Point Target",
       "DAMAGE TYPE: Magical",
@@ -4223,6 +4876,9 @@
     "name": "Rot",
     "id": "pudge_rot",
     "icon": "pudge_rot",
+    "tags": [
+      "magicDamage"
+    ],
     "categories": [
       "ABILITY: Toggle",
       "DAMAGE TYPE: Magical",
@@ -4244,6 +4900,10 @@
     "name": "Sacred Arrow",
     "id": "custom_mirana_arrow",
     "icon": "mirana_arrow",
+    "tags": [
+      "stun",
+      "magicDamage"
+    ],
     "categories": [
       "ABILITY: Point Target",
       "DAMAGE TYPE: Magical",
@@ -4278,6 +4938,10 @@
     "name": "Searing Arrows",
     "id": "clinkz_searing_arrows",
     "icon": "clinkz_searing_arrows",
+    "tags": [
+      "attackDamage",
+      "attackModifier"
+    ],
     "categories": [
       "ABILITY: Auto-Cast",
       "DAMAGE TYPE: Physical",
@@ -4304,6 +4968,11 @@
     "name": "Shadow Dance",
     "id": "slark_shadow_dance",
     "icon": "slark_shadow_dance",
+    "tags": [
+      "ultimate",
+      "healing",
+      "attackSpeed"
+    ],
     "categories": [
       "ABILITY: No Target",
       "DISPELLABLE: Strong Dispels Only"
@@ -4332,6 +5001,10 @@
     "name": "Shadow Realm",
     "id": "custom_dark_willow_shadow_realm",
     "icon": "dark_willow_shadow_realm",
+    "tags": [
+      "attackDamage",
+      "attackRange"
+    ],
     "categories": [
       "ABILITY: No Target",
       "DAMAGE TYPE: Magical",
@@ -4365,6 +5038,12 @@
     "name": "Shapeshift",
     "id": "lycan_shapeshift",
     "icon": "lycan_shapeshift",
+    "tags": [
+      "summons",
+      "mobility",
+      "ultimate",
+      "stats"
+    ],
     "categories": [
       "ABILITY: No Target",
       "DISPELLABLE: Strong Dispels Only"
@@ -4395,6 +5074,12 @@
     "name": "Sharpshooter",
     "id": "custom_hoodwink_sharpshooter",
     "icon": "hoodwink_sharpshooter",
+    "tags": [
+      "ultimate",
+      "magicDamage",
+      "break",
+      "damageAmplification"
+    ],
     "categories": [
       "ABILITY: Point Target",
       "DAMAGE TYPE: Magical",
@@ -4424,6 +5109,10 @@
     "name": "Shockwave",
     "id": "custom_magnataur_shockwave",
     "icon": "magnataur_shockwave",
+    "tags": [
+      "displacement",
+      "magicDamage"
+    ],
     "categories": [
       "ABILITY: Unit or Point Target",
       "DAMAGE TYPE: Magical",
@@ -4457,6 +5146,12 @@
     "name": "Sidekick",
     "id": "marci_guardian",
     "icon": "marci_guardian",
+    "tags": [
+      "lifesteal",
+      "magicImmunity",
+      "buff",
+      "attackDamage"
+    ],
     "categories": [
       "ABILITY: Unit Target",
       "PIERCES SPELL IMMUNITY: Yes",
@@ -4488,6 +5183,10 @@
     "name": "Sleight of Fist",
     "id": "ember_spirit_sleight_of_fist",
     "icon": "ember_spirit_sleight_of_fist",
+    "tags": [
+      "instantAttack",
+      "attackDamage"
+    ],
     "categories": [
       "ABILITY: Point Target",
       "DAMAGE TYPE: Physical",
@@ -4516,6 +5215,7 @@
     "name": "Snowball",
     "id": "custom_tusk_snowball",
     "icon": "tusk_snowball",
+    "tags": [],
     "categories": [
       "ABILITY: Unit Target",
       "DAMAGE TYPE: Magical",
@@ -4550,6 +5250,7 @@
     "name": "Soul Rip",
     "id": "custom_undying_soul_rip",
     "icon": "undying_soul_rip",
+    "tags": [],
     "categories": [
       "ABILITY: Unit Target",
       "DAMAGE TYPE: Magical",
@@ -4583,6 +5284,7 @@
     "name": "Soulbind",
     "id": "custom_grimstroke_soul_bind",
     "icon": "grimstroke_soul_chain",
+    "tags": [],
     "categories": [
       "ABILITY: Unit Target",
       "PIERCES SPELL IMMUNITY: Yes",
@@ -4612,6 +5314,11 @@
     "name": "Spear of Mars",
     "id": "custom_mars_spear_of_mars",
     "icon": "mars_spear",
+    "tags": [
+      "displacement",
+      "stun",
+      "magicDamage"
+    ],
     "categories": [
       "ABILITY: Point Target",
       "DAMAGE TYPE: Magical",
@@ -4643,6 +5350,10 @@
     "name": "Spell Steal",
     "id": "custom_rubick_spell_steal",
     "icon": "rubick_spell_steal",
+    "tags": [
+      "ultimate",
+      "spam"
+    ],
     "categories": [
       "ABILITY: Unit Target",
       "PIERCES SPELL IMMUNITY: Yes",
@@ -4671,6 +5382,9 @@
     "name": "Spiked Carapace",
     "id": "nyx_assassin_spiked_carapace",
     "icon": "nyx_assassin_spiked_carapace",
+    "tags": [
+      "stun"
+    ],
     "categories": [
       "ABILITY: No Target",
       "PIERCES SPELL IMMUNITY: No",
@@ -4702,6 +5416,10 @@
     "name": "Spirit Lance",
     "id": "custom_phantom_lancer_spirit_lance",
     "icon": "phantom_lancer_spirit_lance",
+    "tags": [
+      "magicDamage",
+      "stats"
+    ],
     "categories": [
       "ABILITY: Unit Target",
       "DAMAGE TYPE: Magical",
@@ -4731,6 +5449,7 @@
     "name": "Spirit Siphon",
     "id": "death_prophet_spirit_siphon",
     "icon": "death_prophet_spirit_siphon",
+    "tags": [],
     "categories": [
       "ABILITY: Unit Target",
       "DAMAGE TYPE: Magical",
@@ -4756,6 +5475,10 @@
     "name": "Split Earth",
     "id": "custom_leshrac_split_earth",
     "icon": "leshrac_split_earth",
+    "tags": [
+      "stun",
+      "magicDamage"
+    ],
     "categories": [
       "ABILITY: Point Target",
       "DAMAGE TYPE: Magical",
@@ -4789,6 +5512,10 @@
     "name": "Stampede",
     "id": "centaur_stampede",
     "icon": "centaur_stampede",
+    "tags": [
+      "mobility",
+      "ultimate"
+    ],
     "categories": [
       "ABILITY: No Target",
       "DAMAGE TYPE: Magical",
@@ -4818,6 +5545,7 @@
     "name": "Starbreaker",
     "id": "dawnbreaker_fire_wreath",
     "icon": "dawnbreaker_fire_wreath",
+    "tags": [],
     "categories": [
       "ABILITY: Point Target",
       "DAMAGE TYPE: Physical",
@@ -4847,6 +5575,11 @@
     "name": "Static Field",
     "id": "custom_zuus_static_field",
     "icon": "zuus_static_field",
+    "tags": [
+      "magicDamage",
+      "spam",
+      "passive"
+    ],
     "categories": [
       "ABILITY: Passive",
       "DAMAGE TYPE: Magical",
@@ -4867,6 +5600,10 @@
     "name": "Static Link",
     "id": "razor_static_link",
     "icon": "razor_static_link",
+    "tags": [
+      "attackRange",
+      "attackDamage"
+    ],
     "categories": [
       "ABILITY: Unit Target",
       "PIERCES SPELL IMMUNITY: Yes",
@@ -4895,6 +5632,11 @@
     "name": "Sticky Napalm",
     "id": "batrider_sticky_napalm",
     "icon": "batrider_sticky_napalm",
+    "tags": [
+      "spam",
+      "damageAmplification",
+      "magicDamage"
+    ],
     "categories": [
       "ABILITY: Point Target",
       "DAMAGE TYPE: Magical",
@@ -4928,6 +5670,11 @@
     "name": "Stone Gaze",
     "id": "medusa_stone_gaze",
     "icon": "medusa_stone_gaze",
+    "tags": [
+      "stun",
+      "ultimate",
+      "damageAmplification"
+    ],
     "categories": [
       "ABILITY: No Target",
       "PIERCES SPELL IMMUNITY: Yes",
@@ -4957,6 +5704,12 @@
     "name": "Summon Familiars",
     "id": "custom_visage_summon_familiars",
     "icon": "visage_summon_familiars",
+    "tags": [
+      "summons",
+      "ultimate",
+      "stun",
+      "attackDamage"
+    ],
     "categories": [
       "ABILITY: No Target"
     ],
@@ -4985,6 +5738,9 @@
     "name": "Summon Spirit Bear",
     "id": "custom_lone_druid_spirit_bear",
     "icon": "lone_druid_spirit_bear",
+    "tags": [
+      "summons"
+    ],
     "categories": [
       "ABILITY: No Target"
     ],
@@ -5013,6 +5769,9 @@
     "name": "Summon Wolves",
     "id": "custom_lycan_summon_wolves",
     "icon": "lycan_summon_wolves",
+    "tags": [
+      "summons"
+    ],
     "categories": [
       "ABILITY: No Target"
     ],
@@ -5044,6 +5803,10 @@
     "name": "Sunder",
     "id": "terrorblade_sunder",
     "icon": "terrorblade_sunder",
+    "tags": [
+      "healing",
+      "ultimate"
+    ],
     "categories": [
       "ABILITY: Unit Target",
       "PIERCES SPELL IMMUNITY: No"
@@ -5070,6 +5833,11 @@
     "name": "Tag Team",
     "id": "tusk_tag_team",
     "icon": "tusk_tag_team",
+    "tags": [
+      "buff",
+      "attackDamage",
+      "stun"
+    ],
     "categories": [
       "ABILITY: No Target",
       "DAMAGE TYPE: Physical",
@@ -5100,6 +5868,11 @@
     "name": "Take Aim",
     "id": "custom_sniper_take_aim",
     "icon": "sniper_take_aim",
+    "tags": [
+      "attackRange",
+      "passive",
+      "displacement"
+    ],
     "categories": [
       "ABILITY: Passive"
     ],
@@ -5117,6 +5890,7 @@
     "name": "Tether",
     "id": "wisp_tether",
     "icon": "wisp_tether",
+    "tags": [],
     "categories": [
       "ABILITY: Unit Target",
       "PIERCES SPELL IMMUNITY: Yes",
@@ -5146,6 +5920,10 @@
     "name": "Tidebringer",
     "id": "kunkka_tidebringer",
     "icon": "kunkka_tidebringer",
+    "tags": [
+      "attackDamage",
+      "attackModifier"
+    ],
     "categories": [
       "ABILITY: Auto-Cast",
       "DAMAGE TYPE: Physical",
@@ -5172,6 +5950,10 @@
     "name": "Time Lock",
     "id": "faceless_void_time_lock",
     "icon": "faceless_void_time_lock",
+    "tags": [
+      "stun",
+      "passive"
+    ],
     "categories": [
       "ABILITY: Passive",
       "DAMAGE TYPE: Magical",
@@ -5194,6 +5976,10 @@
     "name": "Time Walk",
     "id": "faceless_void_time_walk",
     "icon": "faceless_void_time_walk",
+    "tags": [
+      "mobility",
+      "healing"
+    ],
     "categories": [
       "ABILITY: Point Target",
       "PIERCES SPELL IMMUNITY: Yes"
@@ -5220,6 +6006,10 @@
     "name": "Torrent",
     "id": "kunkka_torrent",
     "icon": "kunkka_torrent",
+    "tags": [
+      "stun",
+      "magicDamage"
+    ],
     "categories": [
       "ABILITY: Point Target",
       "DAMAGE TYPE: Magical",
@@ -5252,6 +6042,10 @@
     "name": "Toss",
     "id": "custom_tiny_toss",
     "icon": "tiny_toss",
+    "tags": [
+      "displacement",
+      "magicDamage"
+    ],
     "categories": [
       "ABILITY: Unit Target",
       "DAMAGE TYPE: Magical",
@@ -5283,6 +6077,11 @@
     "name": "Trample",
     "id": "primal_beast_trample",
     "icon": "primal_beast_trample",
+    "tags": [
+      "instantAttack",
+      "mobility",
+      "stats"
+    ],
     "categories": [
       "ABILITY: No Target",
       "DAMAGE TYPE: Magical",
@@ -5316,6 +6115,9 @@
     "name": "Tricks of the Trade",
     "id": "custom_riki_tricks_of_the_trade",
     "icon": "riki_tricks_of_the_trade",
+    "tags": [
+      "instantAttack"
+    ],
     "categories": [
       "ABILITY: Channeled",
       "PIERCES SPELL IMMUNITY: Yes"
@@ -5339,6 +6141,7 @@
     "name": "Unleash",
     "id": "marci_unleash",
     "icon": "marci_unleash",
+    "tags": [],
     "categories": [
       "ABILITY: No Target",
       "DAMAGE TYPE: Magical",
@@ -5372,6 +6175,12 @@
     "name": "Uproar",
     "id": "primal_beast_uproar",
     "icon": "primal_beast_uproar",
+    "tags": [
+      "passive",
+      "dispel",
+      "attackDamage",
+      "break"
+    ],
     "categories": [
       "ABILITY: No Target",
       "DISPELLABLE: Strong Dispels Only"
@@ -5398,6 +6207,11 @@
     "name": "Vacuum",
     "id": "dark_seer_vacuum",
     "icon": "dark_seer_vacuum",
+    "tags": [
+      "magicDamage",
+      "displacement",
+      "stun"
+    ],
     "categories": [
       "ABILITY: Point Target",
       "DAMAGE TYPE: Magical",
@@ -5431,6 +6245,11 @@
     "name": "Vampiric Spirit",
     "id": "custom_skeleton_king_vampiric_aura",
     "icon": "skeleton_king_vampiric_aura",
+    "tags": [
+      "lifesteal",
+      "summons",
+      "stun"
+    ],
     "categories": [
       "ABILITY: No Target"
     ],
@@ -5457,6 +6276,7 @@
     "name": "Vengeance Aura",
     "id": "vengefulspirit_command_aura",
     "icon": "vengefulspirit_command_aura",
+    "tags": [],
     "categories": [
       "ABILITY: Passive",
       "PIERCES SPELL IMMUNITY: Yes"
@@ -5476,6 +6296,9 @@
     "name": "Venomous Gale",
     "id": "venomancer_venomous_gale",
     "icon": "venomancer_venomous_gale",
+    "tags": [
+      "magicDamage"
+    ],
     "categories": [
       "ABILITY: Point Target",
       "DAMAGE TYPE: Magical",
@@ -5509,6 +6332,10 @@
     "name": "Viscous Nasal Goo",
     "id": "custom_bristleback_viscous_nasal_goo",
     "icon": "bristleback_viscous_nasal_goo",
+    "tags": [
+      "damageAmplification",
+      "spam"
+    ],
     "categories": [
       "ABILITY: Unit Target",
       "PIERCES SPELL IMMUNITY: No",
@@ -5540,6 +6367,13 @@
     "name": "Walrus PUNCH!",
     "id": "custom_tusk_walrus_punch",
     "icon": "tusk_walrus_punch",
+    "tags": [
+      "ultimate",
+      "stun",
+      "attackModifier",
+      "stats",
+      "break"
+    ],
     "categories": [
       "ABILITY: No Target",
       "PIERCES SPELL IMMUNITY: Yes",
@@ -5570,6 +6404,12 @@
     "name": "Warpath",
     "id": "bristleback_warpath",
     "icon": "bristleback_warpath",
+    "tags": [
+      "passive",
+      "attackDamage",
+      "spam",
+      "ultimate"
+    ],
     "categories": [
       "ABILITY: Passive",
       "DISPELLABLE: Strong Dispels Only"
@@ -5591,6 +6431,9 @@
     "name": "Wave of Terror",
     "id": "vengefulspirit_wave_of_terror",
     "icon": "vengefulspirit_wave_of_terror",
+    "tags": [
+      "damageAmplification"
+    ],
     "categories": [
       "ABILITY: Point Target",
       "DAMAGE TYPE: Magical",
@@ -5623,6 +6466,10 @@
     "name": "Waveform",
     "id": "morphling_waveform",
     "icon": "morphling_waveform",
+    "tags": [
+      "magicDamage",
+      "mobility"
+    ],
     "categories": [
       "ABILITY: Point Target",
       "DAMAGE TYPE: Magical",
@@ -5651,6 +6498,11 @@
     "name": "Wild Axes",
     "id": "beastmaster_wild_axes",
     "icon": "beastmaster_wild_axes",
+    "tags": [
+      "spam",
+      "damageAmplification",
+      "magicDamage"
+    ],
     "categories": [
       "ABILITY: Point Target",
       "DAMAGE TYPE: Magical",
@@ -5677,6 +6529,9 @@
     "name": "Windrun",
     "id": "custom_windrunner_windrun",
     "icon": "windrunner_windrun",
+    "tags": [
+      "mobility"
+    ],
     "categories": [
       "ABILITY: No Target",
       "PIERCES SPELL IMMUNITY: No",
