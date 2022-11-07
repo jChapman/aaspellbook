@@ -5,13 +5,15 @@ import Footer from "../components/Footer.astro";
 import allAbilities from "../data/abilities.json"
 import FilterableAbilityList from "../components/FilterableAbilityList"
 
-const enabledAbilities = await fetch('https://double-edge-studios-llc.github.io/enabled_abilities.txt').then(r => r.text()).then(t => t.split('\n').filter(line => !line.startsWith('#') || !line.startsWith('#')))
+const enabledAbilityIds = await fetch('https://double-edge-studios-llc.github.io/enabled_abilities.txt').then(r => r.text()).then(t => t.split('\n').filter(line => !line.startsWith('#') || !line.startsWith('#')))
+const enabledAbilities = allAbilities.filter(({id}) => enabledAbilityIds.includes(id));
+const tags = Array.from(new Set(enabledAbilities.reduce((prev, curr) => prev.concat(curr.tags), [] as string[])));
 ---
 
 <Layout title="Spellbook">
   <Header title="Spellbook"/>
   <main>
-      <FilterableAbilityList client:load abilities={allAbilities.filter(({id}) => enabledAbilities.includes(id))}/>
+      <FilterableAbilityList client:load abilities={enabledAbilities} tags={tags}/>
   </main>
   <Footer/>
 </Layout>

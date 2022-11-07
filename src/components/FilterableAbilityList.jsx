@@ -1,21 +1,5 @@
-/*
-  This example requires Tailwind CSS v3.0+
-  
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
-*/
-import { Fragment, useState } from "react";
-import { Combobox, Dialog, Transition } from "@headlessui/react";
+import { useState } from "react";
+import { Combobox } from "@headlessui/react";
 import { MagnifyingGlassIcon } from "@heroicons/react/20/solid/index.js";
 import AbilityCard from "./AbilityCard";
 
@@ -23,15 +7,18 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-export default function AbilityList({ abilities }) {
+function hasTagMatchingQuery(ability, query) {
+  return ability.tags.filter((tag) => tag.toLowerCase().includes(query.toLowerCase())).length > 0
+}
+
+export default function AbilityList({ abilities, tags }) {
   const [query, setQuery] = useState("");
-  const [open, setOpen] = useState(true);
 
   const filteredAbilities =
     query === ""
       ? abilities
       : abilities.filter((a) => {
-          return a.name.toLowerCase().includes(query.toLowerCase());
+          return a.name.toLowerCase().includes(query.toLowerCase()) || hasTagMatchingQuery(a, query)
         });
 
   return (
@@ -60,6 +47,11 @@ export default function AbilityList({ abilities }) {
             </Combobox.Options>
           </div>
         </Combobox>
+      </div>
+      <div className="flex flex-row flex-wrap justify-center mx-10">
+        {tags.map(tag => (
+          <div className={classNames("rounded-full bg-dank-300 capitalize py-1 px-2 my-1 mx-1 select-none", query===tag && 'outline outline-offset-2 outline-purple-600')} key={tag} onClick={(e) => setQuery(tag)}>{tag.split(/(?=[A-Z])/).join(' ')}</div>
+        ))}
       </div>
       <div className="flex flex-wrap justify-center">
         {filteredAbilities.map((a) => (
