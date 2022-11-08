@@ -22,7 +22,7 @@ export default function AbilityList({ abilities, tags }) {
         });
 
   return (
-    <div className="flex flex-col my-4">
+    <div className="flex flex-col my-4 pt-4">
       <div className="mx-auto w-1/2 mb-5 transform divide-y overflow-hidden rounded-xl bg-dank-500 shadow-md transition-all shadow-purple-600">
         <Combobox onChange={(item) => (window.location = item.url)}>
           <div className="relative">
@@ -48,7 +48,7 @@ export default function AbilityList({ abilities, tags }) {
           </div>
         </Combobox>
       </div>
-      <div className="flex flex-row flex-wrap justify-center mx-10">
+      <div className="flex flex-row flex-wrap justify-center w-3/4 py-4 mx-auto">
         {tags.map(tag => (
           <div className={classNames("rounded-full bg-dank-300 capitalize py-1 px-2 my-1 mx-1 select-none", query===tag && 'outline outline-offset-2 outline-purple-600')} key={tag} onClick={(e) => query === tag ? setQuery("") : setQuery(tag)}>{tag.split(/(?=[A-Z])/).join(' ')}</div>
         ))}
