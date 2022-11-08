@@ -50,7 +50,7 @@ export default function AbilityList({ abilities, tags }) {
       </div>
       <div className="flex flex-row flex-wrap justify-center mx-10">
         {tags.map(tag => (
-          <div className={classNames("rounded-full bg-dank-300 capitalize py-1 px-2 my-1 mx-1 select-none", query===tag && 'outline outline-offset-2 outline-purple-600')} key={tag} onClick={(e) => setQuery(tag)}>{tag.split(/(?=[A-Z])/).join(' ')}</div>
+          <div className={classNames("rounded-full bg-dank-300 capitalize py-1 px-2 my-1 mx-1 select-none", query===tag && 'outline outline-offset-2 outline-purple-600')} key={tag} onClick={(e) => query === tag ? setQuery("") : setQuery(tag)}>{tag.split(/(?=[A-Z])/).join(' ')}</div>
         ))}
       </div>
       <div className="flex flex-wrap justify-center">
