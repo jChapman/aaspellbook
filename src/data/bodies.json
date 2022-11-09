@@ -1,0 +1,4307 @@
+[
+  {
+    "attribute": "str",
+    "stats": {
+      "armor": 0,
+      "attackSpeed": 100,
+      "attackRange": 400,
+      "moveSpeed": 295,
+      "projectileSpeed": 1400,
+      "strength": {
+        "growth": 3.2999999523163,
+        "base": 20
+      },
+      "damage": 23.5,
+      "agility": {
+        "growth": 1.5,
+        "base": 10
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 1.5,
+        "base": 18
+      },
+      "baseAttackTime": 1.6000000238419
+    },
+    "tier": 5,
+    "name_loc": "Huskar",
+    "name": "npc_dota_hero_huskar"
+  },
+  {
+    "attribute": "str",
+    "stats": {
+      "armor": 0,
+      "attackSpeed": 110,
+      "attackRange": 150,
+      "moveSpeed": 290,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 2.7000000476837,
+        "base": 22
+      },
+      "damage": 28,
+      "agility": {
+        "growth": 1.7999999523163,
+        "base": 19
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 1.7999999523163,
+        "base": 19
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 5,
+    "name_loc": "Sand King",
+    "name": "npc_dota_hero_sand_king"
+  },
+  {
+    "attribute": "str",
+    "stats": {
+      "armor": 1,
+      "attackSpeed": 100,
+      "attackRange": 500,
+      "moveSpeed": 320,
+      "projectileSpeed": 1200,
+      "strength": {
+        "growth": 3,
+        "base": 17
+      },
+      "damage": 31,
+      "agility": {
+        "growth": 1.6000000238419,
+        "base": 14
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 1.7000000476837,
+        "base": 23
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 5,
+    "name_loc": "Io",
+    "name": "npc_dota_hero_wisp"
+  },
+  {
+    "attribute": "str",
+    "stats": {
+      "armor": 1,
+      "attackSpeed": 100,
+      "attackRange": 500,
+      "moveSpeed": 300,
+      "projectileSpeed": 1800,
+      "strength": {
+        "growth": 3.5,
+        "base": 20
+      },
+      "damage": 29,
+      "agility": {
+        "growth": 1.8999999761581,
+        "base": 16
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.75,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 2.2000000476837,
+        "base": 21
+      },
+      "baseAttackTime": 1.6000000238419
+    },
+    "tier": 1,
+    "name_loc": "Snapfire",
+    "name": "npc_dota_hero_snapfire"
+  },
+  {
+    "attribute": "str",
+    "stats": {
+      "armor": 2,
+      "attackSpeed": 100,
+      "attackRange": 150,
+      "moveSpeed": 315,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 3.7999999523163,
+        "base": 24
+      },
+      "damage": 31,
+      "agility": {
+        "growth": 1.6000000238419,
+        "base": 14
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.75,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 1.7999999523163,
+        "base": 18
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 1,
+    "name_loc": "Kunkka",
+    "name": "npc_dota_hero_kunkka"
+  },
+  {
+    "attribute": "str",
+    "stats": {
+      "armor": -2,
+      "attackSpeed": 90,
+      "attackRange": 150,
+      "moveSpeed": 300,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 4,
+        "base": 27
+      },
+      "damage": 37,
+      "agility": {
+        "growth": 1,
+        "base": 15
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 5,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 1.6000000238419,
+        "base": 15
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 1,
+    "name_loc": "Centaur Warrunner",
+    "name": "npc_dota_hero_centaur"
+  },
+  {
+    "attribute": "str",
+    "stats": {
+      "armor": -1,
+      "attackSpeed": 100,
+      "attackRange": 250,
+      "moveSpeed": 310,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 3.7000000476837,
+        "base": 23
+      },
+      "damage": 30,
+      "agility": {
+        "growth": 1.7000000476837,
+        "base": 20
+      },
+      "mana": {
+        "regen": 0.5,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 2.2000000476837,
+        "base": 21
+      },
+      "baseAttackTime": 1.7999999523163
+    },
+    "tier": 1,
+    "name_loc": "Mars",
+    "name": "npc_dota_hero_mars"
+  },
+  {
+    "attribute": "str",
+    "stats": {
+      "armor": -1,
+      "attackSpeed": 100,
+      "attackRange": 525,
+      "moveSpeed": 280,
+      "projectileSpeed": 1100,
+      "strength": {
+        "growth": 3.5999999046326,
+        "base": 23
+      },
+      "damage": 31,
+      "agility": {
+        "growth": 1.5,
+        "base": 12
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 2,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 1.7999999523163,
+        "base": 16
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 5,
+    "name_loc": "Phoenix",
+    "name": "npc_dota_hero_phoenix"
+  },
+  {
+    "attribute": "str",
+    "stats": {
+      "armor": 1,
+      "attackSpeed": 100,
+      "attackRange": 150,
+      "moveSpeed": 310,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 3.9000000953674,
+        "base": 23
+      },
+      "damage": 29,
+      "agility": {
+        "growth": 2.0999999046326,
+        "base": 23
+      },
+      "mana": {
+        "regen": 0.5,
+        "value": 75
+      },
+      "health": {
+        "regen": 1,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 1.7000000476837,
+        "base": 18
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 1,
+    "name_loc": "Tusk",
+    "name": "npc_dota_hero_tusk"
+  },
+  {
+    "attribute": "str",
+    "stats": {
+      "armor": 2,
+      "attackSpeed": 100,
+      "attackRange": 150,
+      "moveSpeed": 310,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 4.3000001907349,
+        "base": 26
+      },
+      "damage": 37,
+      "agility": {
+        "growth": 1,
+        "base": 15
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 1.3999999761581,
+        "base": 16
+      },
+      "baseAttackTime": 1.7999999523163
+    },
+    "tier": 1,
+    "name_loc": "Primal Beast",
+    "name": "npc_dota_hero_primal_beast"
+  },
+  {
+    "attribute": "str",
+    "stats": {
+      "armor": 2,
+      "attackSpeed": 100,
+      "attackRange": 150,
+      "moveSpeed": 315,
+      "projectileSpeed": 0,
+      "strength": {
+        "growth": 3.7000000476837,
+        "base": 22
+      },
+      "damage": 32,
+      "agility": {
+        "growth": 1.3999999761581,
+        "base": 12
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 1,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 2.0999999046326,
+        "base": 18
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 2,
+    "name_loc": "Earthshaker",
+    "name": "npc_dota_hero_earthshaker"
+  },
+  {
+    "attribute": "str",
+    "stats": {
+      "armor": 3,
+      "attackSpeed": 100,
+      "attackRange": 150,
+      "moveSpeed": 300,
+      "projectileSpeed": 0,
+      "strength": {
+        "growth": 3.5999999046326,
+        "base": 21
+      },
+      "damage": 34,
+      "agility": {
+        "growth": 2.4000000953674,
+        "base": 17
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.5,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 1.5,
+        "base": 15
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 2,
+    "name_loc": "Slardar",
+    "name": "npc_dota_hero_slardar"
+  },
+  {
+    "attribute": "str",
+    "stats": {
+      "armor": 1,
+      "attackSpeed": 100,
+      "attackRange": 150,
+      "moveSpeed": 305,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 3.5,
+        "base": 25
+      },
+      "damage": 36,
+      "agility": {
+        "growth": 2.5,
+        "base": 15
+      },
+      "mana": {
+        "regen": 0.5,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.5,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 2.0999999046326,
+        "base": 19
+      },
+      "baseAttackTime": 1.7999999523163
+    },
+    "tier": 2,
+    "name_loc": "Magnus",
+    "name": "npc_dota_hero_magnataur"
+  },
+  {
+    "attribute": "str",
+    "stats": {
+      "armor": 1,
+      "attackSpeed": 100,
+      "attackRange": 150,
+      "moveSpeed": 310,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 3.5,
+        "base": 26
+      },
+      "damage": 25,
+      "agility": {
+        "growth": 2.2999999523163,
+        "base": 13
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.5,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 1.5,
+        "base": 18
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 2,
+    "name_loc": "Clockwerk",
+    "name": "npc_dota_hero_rattletrap"
+  },
+  {
+    "attribute": "str",
+    "stats": {
+      "armor": 0,
+      "attackSpeed": 100,
+      "attackRange": 150,
+      "moveSpeed": 290,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 3.7999999523163,
+        "base": 22
+      },
+      "damage": 30,
+      "agility": {
+        "growth": 2.4000000953674,
+        "base": 17
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 1,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 2.0999999046326,
+        "base": 20
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 2,
+    "name_loc": "Earth Spirit",
+    "name": "npc_dota_hero_earth_spirit"
+  },
+  {
+    "attribute": "str",
+    "stats": {
+      "armor": 1,
+      "attackSpeed": 100,
+      "attackRange": 150,
+      "moveSpeed": 310,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 3.4000000953674,
+        "base": 27
+      },
+      "damage": 31,
+      "agility": {
+        "growth": 1.7000000476837,
+        "base": 14
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 2.2000000476837,
+        "base": 20
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 2,
+    "name_loc": "Dawnbreaker",
+    "name": "npc_dota_hero_dawnbreaker"
+  },
+  {
+    "attribute": "str",
+    "stats": {
+      "armor": 0,
+      "attackSpeed": 100,
+      "attackRange": 150,
+      "moveSpeed": 315,
+      "projectileSpeed": 0,
+      "strength": {
+        "growth": 3.5999999046326,
+        "base": 23
+      },
+      "damage": 35,
+      "agility": {
+        "growth": 2.4000000953674,
+        "base": 20
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 1.8999999761581,
+        "base": 19
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 2,
+    "name_loc": "Marci",
+    "name": "npc_dota_hero_marci"
+  },
+  {
+    "attribute": "str",
+    "stats": {
+      "armor": -1,
+      "attackSpeed": 100,
+      "attackRange": 150,
+      "moveSpeed": 310,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 3.7000000476837,
+        "base": 23
+      },
+      "damage": 32.5,
+      "agility": {
+        "growth": 2,
+        "base": 19
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.5,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 1.6000000238419,
+        "base": 15
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 2,
+    "name_loc": "Brewmaster",
+    "name": "npc_dota_hero_brewmaster"
+  },
+  {
+    "attribute": "str",
+    "stats": {
+      "armor": 2,
+      "attackSpeed": 100,
+      "attackRange": 150,
+      "moveSpeed": 295,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 3,
+        "base": 23
+      },
+      "damage": 42,
+      "agility": {
+        "growth": 2.2000000476837,
+        "base": 18
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 2,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 1.6000000238419,
+        "base": 15
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 2,
+    "name_loc": "Night Stalker",
+    "name": "npc_dota_hero_night_stalker"
+  },
+  {
+    "attribute": "str",
+    "stats": {
+      "armor": 3,
+      "attackSpeed": 100,
+      "attackRange": 200,
+      "moveSpeed": 290,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 3,
+        "base": 25
+      },
+      "damage": 40,
+      "agility": {
+        "growth": 1.6000000238419,
+        "base": 12
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 2.2999999523163,
+        "base": 17
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 3,
+    "name_loc": "Underlord",
+    "name": "npc_dota_hero_abyssal_underlord"
+  },
+  {
+    "attribute": "str",
+    "stats": {
+      "armor": 0,
+      "attackSpeed": 110,
+      "attackRange": 150,
+      "moveSpeed": 305,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 3.4000000953674,
+        "base": 26
+      },
+      "damage": 26.5,
+      "agility": {
+        "growth": 1.7000000476837,
+        "base": 16
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 1.7000000476837,
+        "base": 23
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 3,
+    "name_loc": "Lycan",
+    "name": "npc_dota_hero_lycan"
+  },
+  {
+    "attribute": "str",
+    "stats": {
+      "armor": 0,
+      "attackSpeed": 100,
+      "attackRange": 150,
+      "moveSpeed": 310,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 3.4000000953674,
+        "base": 21
+      },
+      "damage": 35,
+      "agility": {
+        "growth": 2,
+        "base": 16
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 1.7000000476837,
+        "base": 18
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 3,
+    "name_loc": "Dragon Knight",
+    "name": "npc_dota_hero_dragon_knight"
+  },
+  {
+    "attribute": "str",
+    "stats": {
+      "armor": -1,
+      "attackSpeed": 100,
+      "attackRange": 150,
+      "moveSpeed": 285,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 3.4000000953674,
+        "base": 25
+      },
+      "damage": 66,
+      "agility": {
+        "growth": 1.7999999523163,
+        "base": 15
+      },
+      "mana": {
+        "regen": 0.5,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 1.7999999523163,
+        "base": 20
+      },
+      "baseAttackTime": 1.8999999761581
+    },
+    "tier": 3,
+    "name_loc": "Treant Protector",
+    "name": "npc_dota_hero_treant"
+  },
+  {
+    "attribute": "str",
+    "stats": {
+      "armor": 2,
+      "attackSpeed": 100,
+      "attackRange": 150,
+      "moveSpeed": 315,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 3.0999999046326,
+        "base": 23
+      },
+      "damage": 36,
+      "agility": {
+        "growth": 2,
+        "base": 15
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 2.0999999046326,
+        "base": 16
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 3,
+    "name_loc": "Omniknight",
+    "name": "npc_dota_hero_omniknight"
+  },
+  {
+    "attribute": "str",
+    "stats": {
+      "armor": 0,
+      "attackSpeed": 100,
+      "attackRange": 150,
+      "moveSpeed": 330,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 3.2999999523163,
+        "base": 25
+      },
+      "damage": 37,
+      "agility": {
+        "growth": 1.7000000476837,
+        "base": 18
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 2.2000000476837,
+        "base": 20
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 3,
+    "name_loc": "Legion Commander",
+    "name": "npc_dota_hero_legion_commander"
+  },
+  {
+    "attribute": "str",
+    "stats": {
+      "armor": -1,
+      "attackSpeed": 100,
+      "attackRange": 150,
+      "moveSpeed": 310,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 2.7999999523163,
+        "base": 25
+      },
+      "damage": 32,
+      "agility": {
+        "growth": 2,
+        "base": 20
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 2.5,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 1.6000000238419,
+        "base": 18
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 3,
+    "name_loc": "Axe",
+    "name": "npc_dota_hero_axe"
+  },
+  {
+    "attribute": "str",
+    "stats": {
+      "armor": 3,
+      "attackSpeed": 100,
+      "attackRange": 200,
+      "moveSpeed": 285,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 3.7000000476837,
+        "base": 24
+      },
+      "damage": 39,
+      "agility": {
+        "growth": 1.5,
+        "base": 15
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 1.7000000476837,
+        "base": 15
+      },
+      "baseAttackTime": 1.8999999761581
+    },
+    "tier": 3,
+    "name_loc": "Doom",
+    "name": "npc_dota_hero_doom_bringer"
+  },
+  {
+    "attribute": "str",
+    "stats": {
+      "armor": -1,
+      "attackSpeed": 100,
+      "attackRange": 175,
+      "moveSpeed": 280,
+      "projectileSpeed": 0,
+      "strength": {
+        "growth": 3,
+        "base": 25
+      },
+      "damage": 48,
+      "agility": {
+        "growth": 1.3999999761581,
+        "base": 14
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 2,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 1.7999999523163,
+        "base": 16
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 3,
+    "name_loc": "Pudge",
+    "name": "npc_dota_hero_pudge"
+  },
+  {
+    "attribute": "str",
+    "stats": {
+      "armor": -1,
+      "attackSpeed": 100,
+      "attackRange": 150,
+      "moveSpeed": 305,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 2.7000000476837,
+        "base": 23
+      },
+      "damage": 30,
+      "agility": {
+        "growth": 1.5,
+        "base": 22
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 1.7999999523163,
+        "base": 25
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 3,
+    "name_loc": "Alchemist",
+    "name": "npc_dota_hero_alchemist"
+  },
+  {
+    "attribute": "str",
+    "stats": {
+      "armor": 0,
+      "attackSpeed": 100,
+      "attackRange": 150,
+      "moveSpeed": 300,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 3.5,
+        "base": 27
+      },
+      "damage": 28,
+      "agility": {
+        "growth": 1.5,
+        "base": 15
+      },
+      "mana": {
+        "regen": 0.5,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 1.7000000476837,
+        "base": 18
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 3,
+    "name_loc": "Tidehunter",
+    "name": "npc_dota_hero_tidehunter"
+  },
+  {
+    "attribute": "str",
+    "stats": {
+      "armor": 0,
+      "attackSpeed": 110,
+      "attackRange": 150,
+      "moveSpeed": 325,
+      "projectileSpeed": 0,
+      "strength": {
+        "growth": 3.2000000476837,
+        "base": 22
+      },
+      "damage": 42,
+      "agility": {
+        "growth": 2.2000000476837,
+        "base": 21
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.75,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 1.2999999523163,
+        "base": 16
+      },
+      "baseAttackTime": 1.8999999761581
+    },
+    "tier": 4,
+    "name_loc": "Sven",
+    "name": "npc_dota_hero_sven"
+  },
+  {
+    "attribute": "str",
+    "stats": {
+      "armor": 0,
+      "attackSpeed": 100,
+      "attackRange": 150,
+      "moveSpeed": 310,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 3,
+        "base": 26
+      },
+      "damage": 28,
+      "agility": {
+        "growth": 1.7999999523163,
+        "base": 16
+      },
+      "mana": {
+        "regen": 0.25,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 1.6000000238419,
+        "base": 23
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 4,
+    "name_loc": "Elder Titan",
+    "name": "npc_dota_hero_elder_titan"
+  },
+  {
+    "attribute": "str",
+    "stats": {
+      "armor": 0,
+      "attackSpeed": 100,
+      "attackRange": 150,
+      "moveSpeed": 290,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 3.5,
+        "base": 25
+      },
+      "damage": 29,
+      "agility": {
+        "growth": 1.6000000238419,
+        "base": 16
+      },
+      "mana": {
+        "regen": 0.5,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 2.7000000476837,
+        "base": 23
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 4,
+    "name_loc": "Timbersaw",
+    "name": "npc_dota_hero_shredder"
+  },
+  {
+    "attribute": "str",
+    "stats": {
+      "armor": 1,
+      "attackSpeed": 100,
+      "attackRange": 150,
+      "moveSpeed": 300,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 2.4000000953674,
+        "base": 22
+      },
+      "damage": 39,
+      "agility": {
+        "growth": 1.2000000476837,
+        "base": 10
+      },
+      "mana": {
+        "regen": 0.25,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 2.7999999523163,
+        "base": 27
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 4,
+    "name_loc": "Undying",
+    "name": "npc_dota_hero_undying"
+  },
+  {
+    "attribute": "str",
+    "stats": {
+      "armor": 2,
+      "attackSpeed": 100,
+      "attackRange": 150,
+      "moveSpeed": 325,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 3.2000000476837,
+        "base": 22
+      },
+      "damage": 44,
+      "agility": {
+        "growth": 1.3999999761581,
+        "base": 18
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 1.2000000476837,
+        "base": 18
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 4,
+    "name_loc": "Chaos Knight",
+    "name": "npc_dota_hero_chaos_knight"
+  },
+  {
+    "attribute": "str",
+    "stats": {
+      "armor": 2,
+      "attackSpeed": 100,
+      "attackRange": 150,
+      "moveSpeed": 295,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 3,
+        "base": 28
+      },
+      "damage": 36,
+      "agility": {
+        "growth": 1.7000000476837,
+        "base": 17
+      },
+      "mana": {
+        "regen": 0.5,
+        "value": 75
+      },
+      "health": {
+        "regen": 1.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 1.7999999523163,
+        "base": 14
+      },
+      "baseAttackTime": 1.8999999761581
+    },
+    "tier": 4,
+    "name_loc": "Spirit Breaker",
+    "name": "npc_dota_hero_spirit_breaker"
+  },
+  {
+    "attribute": "str",
+    "stats": {
+      "armor": 0,
+      "attackSpeed": 90,
+      "attackRange": 150,
+      "moveSpeed": 285,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 4,
+        "base": 30
+      },
+      "damage": 34,
+      "agility": {
+        "growth": 0,
+        "base": 0
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 1.5,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 2.2000000476837,
+        "base": 17
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 4,
+    "name_loc": "Tiny",
+    "name": "npc_dota_hero_tiny"
+  },
+  {
+    "attribute": "str",
+    "stats": {
+      "armor": 0,
+      "attackSpeed": 100,
+      "attackRange": 150,
+      "moveSpeed": 305,
+      "projectileSpeed": 0,
+      "strength": {
+        "growth": 2.9000000953674,
+        "base": 23
+      },
+      "damage": 33,
+      "agility": {
+        "growth": 1.6000000238419,
+        "base": 18
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 1.8999999761581,
+        "base": 16
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 4,
+    "name_loc": "Beastmaster",
+    "name": "npc_dota_hero_beastmaster"
+  },
+  {
+    "attribute": "str",
+    "stats": {
+      "armor": -1,
+      "attackSpeed": 120,
+      "attackRange": 150,
+      "moveSpeed": 325,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 2.5999999046326,
+        "base": 22
+      },
+      "damage": 33,
+      "agility": {
+        "growth": 1.5,
+        "base": 23
+      },
+      "mana": {
+        "regen": 0.25,
+        "value": 75
+      },
+      "health": {
+        "regen": 1,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 2,
+        "base": 18
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 4,
+    "name_loc": "Abaddon",
+    "name": "npc_dota_hero_abaddon"
+  },
+  {
+    "attribute": "str",
+    "stats": {
+      "armor": 1,
+      "attackSpeed": 120,
+      "attackRange": 150,
+      "moveSpeed": 320,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 2.4000000953674,
+        "base": 25
+      },
+      "damage": 25,
+      "agility": {
+        "growth": 2.5999999046326,
+        "base": 19
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 1.7999999523163,
+        "base": 15
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 4,
+    "name_loc": "Lifestealer",
+    "name": "npc_dota_hero_life_stealer"
+  },
+  {
+    "attribute": "str",
+    "stats": {
+      "armor": 1,
+      "attackSpeed": 100,
+      "attackRange": 150,
+      "moveSpeed": 295,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 2.5,
+        "base": 22
+      },
+      "damage": 33,
+      "agility": {
+        "growth": 1.7999999523163,
+        "base": 17
+      },
+      "mana": {
+        "regen": 0.25,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 2.7999999523163,
+        "base": 14
+      },
+      "baseAttackTime": 1.7999999523163
+    },
+    "tier": 4,
+    "name_loc": "Bristleback",
+    "name": "npc_dota_hero_bristleback"
+  },
+  {
+    "attribute": "str",
+    "stats": {
+      "armor": -1,
+      "attackSpeed": 100,
+      "attackRange": 150,
+      "moveSpeed": 315,
+      "projectileSpeed": 0,
+      "strength": {
+        "growth": 3,
+        "base": 22
+      },
+      "damage": 39,
+      "agility": {
+        "growth": 1.7000000476837,
+        "base": 16
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.5,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 1.6000000238419,
+        "base": 18
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 4,
+    "name_loc": "Wraith King",
+    "name": "npc_dota_hero_skeleton_king"
+  },
+  {
+    "attribute": "int",
+    "stats": {
+      "armor": 0,
+      "attackSpeed": 100,
+      "attackRange": 425,
+      "moveSpeed": 285,
+      "projectileSpeed": 700,
+      "strength": {
+        "growth": 2.5,
+        "base": 22
+      },
+      "damage": 17.5,
+      "agility": {
+        "growth": 1.7000000476837,
+        "base": 16
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 3.5999999046326,
+        "base": 26
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 5,
+    "name_loc": "Winter Wyvern",
+    "name": "npc_dota_hero_winter_wyvern"
+  },
+  {
+    "attribute": "int",
+    "stats": {
+      "armor": 2,
+      "attackSpeed": 100,
+      "attackRange": 500,
+      "moveSpeed": 290,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 2.5,
+        "base": 19
+      },
+      "damage": 25,
+      "agility": {
+        "growth": 1.2000000476837,
+        "base": 13
+      },
+      "mana": {
+        "regen": 0.75,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 3.2999999523163,
+        "base": 30
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 5,
+    "name_loc": "Tinker",
+    "name": "npc_dota_hero_tinker"
+  },
+  {
+    "attribute": "int",
+    "stats": {
+      "armor": -3,
+      "attackSpeed": 100,
+      "attackRange": 550,
+      "moveSpeed": 290,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 2.4000000953674,
+        "base": 17
+      },
+      "damage": 26,
+      "agility": {
+        "growth": 2.5,
+        "base": 22
+      },
+      "mana": {
+        "regen": 0.5,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.5,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 3.5,
+        "base": 23
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 5,
+    "name_loc": "Puck",
+    "name": "npc_dota_hero_puck"
+  },
+  {
+    "attribute": "int",
+    "stats": {
+      "armor": 2,
+      "attackSpeed": 100,
+      "attackRange": 380,
+      "moveSpeed": 315,
+      "projectileSpeed": 1100,
+      "strength": {
+        "growth": 2.0999999046326,
+        "base": 19
+      },
+      "damage": 37,
+      "agility": {
+        "growth": 1.2000000476837,
+        "base": 11
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 3.2999999523163,
+        "base": 22
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 5,
+    "name_loc": "Zeus",
+    "name": "npc_dota_hero_zuus"
+  },
+  {
+    "attribute": "int",
+    "stats": {
+      "armor": 1,
+      "attackSpeed": 100,
+      "attackRange": 500,
+      "moveSpeed": 280,
+      "projectileSpeed": 1200,
+      "strength": {
+        "growth": 2.2999999523163,
+        "base": 18
+      },
+      "damage": 28,
+      "agility": {
+        "growth": 1.2999999523163,
+        "base": 12
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 2.7000000476837,
+        "base": 21
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 5,
+    "name_loc": "Necrophos",
+    "name": "npc_dota_hero_necrolyte"
+  },
+  {
+    "attribute": "int",
+    "stats": {
+      "armor": 0,
+      "attackSpeed": 100,
+      "attackRange": 575,
+      "moveSpeed": 305,
+      "projectileSpeed": 1200,
+      "strength": {
+        "growth": 2.2999999523163,
+        "base": 18
+      },
+      "damage": 25,
+      "agility": {
+        "growth": 1.7000000476837,
+        "base": 20
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 3.7000000476837,
+        "base": 25
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 1,
+    "name_loc": "Dazzle",
+    "name": "npc_dota_hero_dazzle"
+  },
+  {
+    "attribute": "int",
+    "stats": {
+      "armor": 0,
+      "attackSpeed": 100,
+      "attackRange": 575,
+      "moveSpeed": 325,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 2.7999999523163,
+        "base": 20
+      },
+      "damage": 29,
+      "agility": {
+        "growth": 2.7999999523163,
+        "base": 23
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 3.5,
+        "base": 22
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 1,
+    "name_loc": "Leshrac",
+    "name": "npc_dota_hero_leshrac"
+  },
+  {
+    "attribute": "int",
+    "stats": {
+      "armor": 1,
+      "attackSpeed": 100,
+      "attackRange": 600,
+      "moveSpeed": 285,
+      "projectileSpeed": 1000,
+      "strength": {
+        "growth": 3.0999999046326,
+        "base": 21
+      },
+      "damage": 28,
+      "agility": {
+        "growth": 2,
+        "base": 16
+      },
+      "mana": {
+        "regen": 0.5,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 3.2999999523163,
+        "base": 24
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 1,
+    "name_loc": "Death Prophet",
+    "name": "npc_dota_hero_death_prophet"
+  },
+  {
+    "attribute": "int",
+    "stats": {
+      "armor": 0,
+      "attackSpeed": 100,
+      "attackRange": 600,
+      "moveSpeed": 295,
+      "projectileSpeed": 1125,
+      "strength": {
+        "growth": 2.5999999046326,
+        "base": 21
+      },
+      "damage": 32,
+      "agility": {
+        "growth": 3.5999999046326,
+        "base": 22
+      },
+      "mana": {
+        "regen": 0.75,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 3.7000000476837,
+        "base": 23
+      },
+      "baseAttackTime": 1.5
+    },
+    "tier": 1,
+    "name_loc": "Nature's Prophet",
+    "name": "npc_dota_hero_furion"
+  },
+  {
+    "attribute": "int",
+    "stats": {
+      "armor": -1,
+      "attackSpeed": 100,
+      "attackRange": 670,
+      "moveSpeed": 290,
+      "projectileSpeed": 1000,
+      "strength": {
+        "growth": 2.4000000953674,
+        "base": 20
+      },
+      "damage": 25,
+      "agility": {
+        "growth": 2.4000000953674,
+        "base": 23
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 3.7999999523163,
+        "base": 30
+      },
+      "baseAttackTime": 1.6000000238419
+    },
+    "tier": 1,
+    "name_loc": "Lina",
+    "name": "npc_dota_hero_lina"
+  },
+  {
+    "attribute": "int",
+    "stats": {
+      "armor": 0,
+      "attackSpeed": 100,
+      "attackRange": 500,
+      "moveSpeed": 290,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 2.5999999046326,
+        "base": 23
+      },
+      "damage": 31,
+      "agility": {
+        "growth": 2.2000000476837,
+        "base": 18
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 3.5999999046326,
+        "base": 22
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 1,
+    "name_loc": "Shadow Demon",
+    "name": "npc_dota_hero_shadow_demon"
+  },
+  {
+    "attribute": "int",
+    "stats": {
+      "armor": 0,
+      "attackSpeed": 100,
+      "attackRange": 600,
+      "moveSpeed": 285,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 2.4000000953674,
+        "base": 18
+      },
+      "damage": 32,
+      "agility": {
+        "growth": 1.8999999761581,
+        "base": 14
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 4.5999999046326,
+        "base": 15
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 1,
+    "name_loc": "Invoker",
+    "name": "npc_dota_hero_invoker"
+  },
+  {
+    "attribute": "int",
+    "stats": {
+      "armor": 0,
+      "attackSpeed": 100,
+      "attackRange": 550,
+      "moveSpeed": 290,
+      "projectileSpeed": 1500,
+      "strength": {
+        "growth": 2.4000000953674,
+        "base": 18
+      },
+      "damage": 27,
+      "agility": {
+        "growth": 2.5,
+        "base": 22
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 3.4000000953674,
+        "base": 25
+      },
+      "baseAttackTime": 1.5
+    },
+    "tier": 1,
+    "name_loc": "Queen of Pain",
+    "name": "npc_dota_hero_queenofpain"
+  },
+  {
+    "attribute": "int",
+    "stats": {
+      "armor": 0,
+      "attackSpeed": 100,
+      "attackRange": 630,
+      "moveSpeed": 330,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 2,
+        "base": 19
+      },
+      "damage": 24.5,
+      "agility": {
+        "growth": 1.2999999523163,
+        "base": 24
+      },
+      "mana": {
+        "regen": 0.5,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 5.1999998092651,
+        "base": 24
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 1,
+    "name_loc": "Pugna",
+    "name": "npc_dota_hero_pugna"
+  },
+  {
+    "attribute": "int",
+    "stats": {
+      "armor": 3,
+      "attackSpeed": 100,
+      "attackRange": 700,
+      "moveSpeed": 300,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 2.5,
+        "base": 19
+      },
+      "damage": 22,
+      "agility": {
+        "growth": 1.2999999523163,
+        "base": 14
+      },
+      "mana": {
+        "regen": 1,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 3,
+        "base": 25
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 1,
+    "name_loc": "Techies",
+    "name": "npc_dota_hero_techies"
+  },
+  {
+    "attribute": "int",
+    "stats": {
+      "armor": 1,
+      "attackSpeed": 100,
+      "attackRange": 620,
+      "moveSpeed": 295,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 2.4000000953674,
+        "base": 20
+      },
+      "damage": 16,
+      "agility": {
+        "growth": 1.7000000476837,
+        "base": 15
+      },
+      "mana": {
+        "regen": 0.5,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 3.7999999523163,
+        "base": 26
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 2,
+    "name_loc": "Oracle",
+    "name": "npc_dota_hero_oracle"
+  },
+  {
+    "attribute": "int",
+    "stats": {
+      "armor": 2.5,
+      "attackSpeed": 100,
+      "attackRange": 450,
+      "moveSpeed": 320,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 2.9000000953674,
+        "base": 21
+      },
+      "damage": 25,
+      "agility": {
+        "growth": 1.6000000238419,
+        "base": 22
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 1,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 4.1999998092651,
+        "base": 30
+      },
+      "baseAttackTime": 1.8999999761581
+    },
+    "tier": 2,
+    "name_loc": "Outworld Devourer",
+    "name": "npc_dota_hero_obsidian_destroyer"
+  },
+  {
+    "attribute": "int",
+    "stats": {
+      "armor": -1,
+      "attackSpeed": 100,
+      "attackRange": 600,
+      "moveSpeed": 290,
+      "projectileSpeed": 1250,
+      "strength": {
+        "growth": 2.5999999046326,
+        "base": 18
+      },
+      "damage": 30,
+      "agility": {
+        "growth": 1.3999999761581,
+        "base": 17
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 3.5999999046326,
+        "base": 18
+      },
+      "baseAttackTime": 1.5
+    },
+    "tier": 2,
+    "name_loc": "Windranger",
+    "name": "npc_dota_hero_windrunner"
+  },
+  {
+    "attribute": "int",
+    "stats": {
+      "armor": 1,
+      "attackSpeed": 100,
+      "attackRange": 600,
+      "moveSpeed": 300,
+      "projectileSpeed": 1200,
+      "strength": {
+        "growth": 3,
+        "base": 24
+      },
+      "damage": 29,
+      "agility": {
+        "growth": 1,
+        "base": 10
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 3.0999999046326,
+        "base": 25
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 2,
+    "name_loc": "Warlock",
+    "name": "npc_dota_hero_warlock"
+  },
+  {
+    "attribute": "int",
+    "stats": {
+      "armor": 0,
+      "attackSpeed": 100,
+      "attackRange": 600,
+      "moveSpeed": 290,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 2.2000000476837,
+        "base": 19
+      },
+      "damage": 25,
+      "agility": {
+        "growth": 2.4000000953674,
+        "base": 22
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 2.9000000953674,
+        "base": 25
+      },
+      "baseAttackTime": 1.6000000238419
+    },
+    "tier": 2,
+    "name_loc": "Silencer",
+    "name": "npc_dota_hero_silencer"
+  },
+  {
+    "attribute": "int",
+    "stats": {
+      "armor": 0,
+      "attackSpeed": 100,
+      "attackRange": 600,
+      "moveSpeed": 290,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 2.4000000953674,
+        "base": 21
+      },
+      "damage": 23,
+      "agility": {
+        "growth": 1.8999999761581,
+        "base": 18
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 3.7999999523163,
+        "base": 25
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 2,
+    "name_loc": "Grimstroke",
+    "name": "npc_dota_hero_grimstroke"
+  },
+  {
+    "attribute": "int",
+    "stats": {
+      "armor": -1,
+      "attackSpeed": 100,
+      "attackRange": 650,
+      "moveSpeed": 305,
+      "projectileSpeed": 1100,
+      "strength": {
+        "growth": 2,
+        "base": 25
+      },
+      "damage": 32,
+      "agility": {
+        "growth": 2.0999999046326,
+        "base": 15
+      },
+      "mana": {
+        "regen": 0.5,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 3.2000000476837,
+        "base": 19
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 2,
+    "name_loc": "Chen",
+    "name": "npc_dota_hero_chen"
+  },
+  {
+    "attribute": "int",
+    "stats": {
+      "armor": 0,
+      "attackSpeed": 100,
+      "attackRange": 600,
+      "moveSpeed": 320,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 2.2999999523163,
+        "base": 18
+      },
+      "damage": 21.5,
+      "agility": {
+        "growth": 1.6000000238419,
+        "base": 15
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 3.2000000476837,
+        "base": 23
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 2,
+    "name_loc": "Keeper of the Light",
+    "name": "npc_dota_hero_keeper_of_the_light"
+  },
+  {
+    "attribute": "int",
+    "stats": {
+      "armor": 1,
+      "attackSpeed": 100,
+      "attackRange": 575,
+      "moveSpeed": 320,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 1.7000000476837,
+        "base": 17
+      },
+      "damage": 28,
+      "agility": {
+        "growth": 2.0999999046326,
+        "base": 19
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 3.7999999523163,
+        "base": 22
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 3,
+    "name_loc": "Enchantress",
+    "name": "npc_dota_hero_enchantress"
+  },
+  {
+    "attribute": "int",
+    "stats": {
+      "armor": 2,
+      "attackSpeed": 100,
+      "attackRange": 400,
+      "moveSpeed": 310,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 2.9000000953674,
+        "base": 28
+      },
+      "damage": 19,
+      "agility": {
+        "growth": 1.7999999523163,
+        "base": 15
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 1.75,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 2.9000000953674,
+        "base": 22
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 3,
+    "name_loc": "Batrider",
+    "name": "npc_dota_hero_batrider"
+  },
+  {
+    "attribute": "int",
+    "stats": {
+      "armor": 2,
+      "attackSpeed": 100,
+      "attackRange": 150,
+      "moveSpeed": 295,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 2.5999999046326,
+        "base": 22
+      },
+      "damage": 36,
+      "agility": {
+        "growth": 1.7999999523163,
+        "base": 19
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 2.7000000476837,
+        "base": 21
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 3,
+    "name_loc": "Dark Seer",
+    "name": "npc_dota_hero_dark_seer"
+  },
+  {
+    "attribute": "int",
+    "stats": {
+      "armor": 4,
+      "attackSpeed": 100,
+      "attackRange": 150,
+      "moveSpeed": 290,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 3.2999999523163,
+        "base": 23
+      },
+      "damage": 57,
+      "agility": {
+        "growth": 1.5,
+        "base": 14
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 2.5,
+        "base": 15
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 3,
+    "name_loc": "Ogre Magi",
+    "name": "npc_dota_hero_ogre_magi"
+  },
+  {
+    "attribute": "int",
+    "stats": {
+      "armor": 1,
+      "attackSpeed": 100,
+      "attackRange": 400,
+      "moveSpeed": 290,
+      "projectileSpeed": 1100,
+      "strength": {
+        "growth": 2.5,
+        "base": 25
+      },
+      "damage": 31,
+      "agility": {
+        "growth": 1.2000000476837,
+        "base": 15
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 3,
+        "base": 26
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 3,
+    "name_loc": "Jakiro",
+    "name": "npc_dota_hero_jakiro"
+  },
+  {
+    "attribute": "int",
+    "stats": {
+      "armor": 1,
+      "attackSpeed": 100,
+      "attackRange": 400,
+      "moveSpeed": 305,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 2.5,
+        "base": 22
+      },
+      "damage": 36,
+      "agility": {
+        "growth": 2.5,
+        "base": 22
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 2.5,
+        "base": 22
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 3,
+    "name_loc": "Bane",
+    "name": "npc_dota_hero_bane"
+  },
+  {
+    "attribute": "int",
+    "stats": {
+      "armor": -1,
+      "attackSpeed": 115,
+      "attackRange": 475,
+      "moveSpeed": 290,
+      "projectileSpeed": 1200,
+      "strength": {
+        "growth": 2,
+        "base": 20
+      },
+      "damage": 31,
+      "agility": {
+        "growth": 1.6000000238419,
+        "base": 18
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.75,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 3.5,
+        "base": 21
+      },
+      "baseAttackTime": 1.5
+    },
+    "tier": 3,
+    "name_loc": "Dark Willow",
+    "name": "npc_dota_hero_dark_willow"
+  },
+  {
+    "attribute": "int",
+    "stats": {
+      "armor": -1,
+      "attackSpeed": 100,
+      "attackRange": 200,
+      "moveSpeed": 295,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 2.5999999046326,
+        "base": 22
+      },
+      "damage": 32,
+      "agility": {
+        "growth": 2.2000000476837,
+        "base": 19
+      },
+      "mana": {
+        "regen": 0.60000002384186,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 3.0999999046326,
+        "base": 24
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 3,
+    "name_loc": "Void Spirit",
+    "name": "npc_dota_hero_void_spirit"
+  },
+  {
+    "attribute": "int",
+    "stats": {
+      "armor": 2,
+      "attackSpeed": 90,
+      "attackRange": 400,
+      "moveSpeed": 285,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 2.2999999523163,
+        "base": 23
+      },
+      "damage": 43.5,
+      "agility": {
+        "growth": 1.6000000238419,
+        "base": 16
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 1,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 3.5,
+        "base": 25
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 3,
+    "name_loc": "Shadow Shaman",
+    "name": "npc_dota_hero_shadow_shaman"
+  },
+  {
+    "attribute": "int",
+    "stats": {
+      "armor": -1,
+      "attackSpeed": 110,
+      "attackRange": 600,
+      "moveSpeed": 285,
+      "projectileSpeed": 1400,
+      "strength": {
+        "growth": 2.7999999523163,
+        "base": 22
+      },
+      "damage": 28,
+      "agility": {
+        "growth": 1.2999999523163,
+        "base": 11
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 2.9000000953674,
+        "base": 22
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 3,
+    "name_loc": "Visage",
+    "name": "npc_dota_hero_visage"
+  },
+  {
+    "attribute": "int",
+    "stats": {
+      "armor": -1,
+      "attackSpeed": 100,
+      "attackRange": 675,
+      "moveSpeed": 285,
+      "projectileSpeed": 1250,
+      "strength": {
+        "growth": 1.8999999761581,
+        "base": 20
+      },
+      "damage": 26,
+      "agility": {
+        "growth": 2.2000000476837,
+        "base": 20
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 3.4000000953674,
+        "base": 23
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 4,
+    "name_loc": "Ancient Apparition",
+    "name": "npc_dota_hero_ancient_apparition"
+  },
+  {
+    "attribute": "int",
+    "stats": {
+      "armor": 0,
+      "attackSpeed": 100,
+      "attackRange": 550,
+      "moveSpeed": 300,
+      "projectileSpeed": 1200,
+      "strength": {
+        "growth": 2.2999999523163,
+        "base": 18
+      },
+      "damage": 34,
+      "agility": {
+        "growth": 1.3999999761581,
+        "base": 13
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 3.2999999523163,
+        "base": 22
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 4,
+    "name_loc": "Witch Doctor",
+    "name": "npc_dota_hero_witch_doctor"
+  },
+  {
+    "attribute": "int",
+    "stats": {
+      "armor": 1,
+      "attackSpeed": 100,
+      "attackRange": 550,
+      "moveSpeed": 290,
+      "projectileSpeed": 1125,
+      "strength": {
+        "growth": 2,
+        "base": 21
+      },
+      "damage": 27,
+      "agility": {
+        "growth": 2.5,
+        "base": 23
+      },
+      "mana": {
+        "regen": 0.5,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 3.0999999046326,
+        "base": 25
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 4,
+    "name_loc": "Rubick",
+    "name": "npc_dota_hero_rubick"
+  },
+  {
+    "attribute": "int",
+    "stats": {
+      "armor": 0,
+      "attackSpeed": 100,
+      "attackRange": 625,
+      "moveSpeed": 295,
+      "projectileSpeed": 1200,
+      "strength": {
+        "growth": 2.4000000953674,
+        "base": 21
+      },
+      "damage": 31,
+      "agility": {
+        "growth": 1.3999999761581,
+        "base": 15
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 2.9000000953674,
+        "base": 20
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 4,
+    "name_loc": "Disruptor",
+    "name": "npc_dota_hero_disruptor"
+  },
+  {
+    "attribute": "int",
+    "stats": {
+      "armor": -1,
+      "attackSpeed": 100,
+      "attackRange": 550,
+      "moveSpeed": 295,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 2.0999999046326,
+        "base": 20
+      },
+      "damage": 28.5,
+      "agility": {
+        "growth": 2,
+        "base": 17
+      },
+      "mana": {
+        "regen": 0.75,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.5,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 3.5999999046326,
+        "base": 24
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 4,
+    "name_loc": "Lich",
+    "name": "npc_dota_hero_lich"
+  },
+  {
+    "attribute": "int",
+    "stats": {
+      "armor": -1,
+      "attackSpeed": 115,
+      "attackRange": 600,
+      "moveSpeed": 290,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 2.2000000476837,
+        "base": 18
+      },
+      "damage": 32,
+      "agility": {
+        "growth": 1.5,
+        "base": 18
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 3.5,
+        "base": 18
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 4,
+    "name_loc": "Lion",
+    "name": "npc_dota_hero_lion"
+  },
+  {
+    "attribute": "int",
+    "stats": {
+      "armor": 1,
+      "attackSpeed": 115,
+      "attackRange": 480,
+      "moveSpeed": 285,
+      "projectileSpeed": 1100,
+      "strength": {
+        "growth": 2,
+        "base": 21
+      },
+      "damage": 29,
+      "agility": {
+        "growth": 2.5999999046326,
+        "base": 22
+      },
+      "mana": {
+        "regen": 0.5,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.5,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 3.9000000953674,
+        "base": 23
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 4,
+    "name_loc": "Storm Spirit",
+    "name": "npc_dota_hero_storm_spirit"
+  },
+  {
+    "attribute": "int",
+    "stats": {
+      "armor": 1,
+      "attackSpeed": 100,
+      "attackRange": 500,
+      "moveSpeed": 290,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 2.5,
+        "base": 21
+      },
+      "damage": 27,
+      "agility": {
+        "growth": 1,
+        "base": 14
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 3.5999999046326,
+        "base": 19
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 4,
+    "name_loc": "Enigma",
+    "name": "npc_dota_hero_enigma"
+  },
+  {
+    "attribute": "int",
+    "stats": {
+      "armor": -2,
+      "attackSpeed": 100,
+      "attackRange": 625,
+      "moveSpeed": 325,
+      "projectileSpeed": 1000,
+      "strength": {
+        "growth": 2,
+        "base": 21
+      },
+      "damage": 21,
+      "agility": {
+        "growth": 0.80000001192093,
+        "base": 13
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 4.0999999046326,
+        "base": 25
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 4,
+    "name_loc": "Skywrath Mage",
+    "name": "npc_dota_hero_skywrath_mage"
+  },
+  {
+    "attribute": "int",
+    "stats": {
+      "armor": -1,
+      "attackSpeed": 100,
+      "attackRange": 600,
+      "moveSpeed": 280,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 2.2000000476837,
+        "base": 17
+      },
+      "damage": 31,
+      "agility": {
+        "growth": 1.6000000238419,
+        "base": 16
+      },
+      "mana": {
+        "regen": 1,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 3.2999999523163,
+        "base": 16
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 4,
+    "name_loc": "Crystal Maiden",
+    "name": "npc_dota_hero_crystal_maiden"
+  },
+  {
+    "attribute": "agi",
+    "stats": {
+      "armor": 1,
+      "attackSpeed": 100,
+      "attackRange": 150,
+      "moveSpeed": 310,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 2.5,
+        "base": 17
+      },
+      "damage": 29,
+      "agility": {
+        "growth": 2.5,
+        "base": 18
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 2,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 2.0999999046326,
+        "base": 21
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 5,
+    "name_loc": "Nyx Assassin",
+    "name": "npc_dota_hero_nyx_assassin"
+  },
+  {
+    "attribute": "agi",
+    "stats": {
+      "armor": 0,
+      "attackSpeed": 100,
+      "attackRange": 150,
+      "moveSpeed": 310,
+      "projectileSpeed": 0,
+      "strength": {
+        "growth": 1.6000000238419,
+        "base": 21
+      },
+      "damage": 31,
+      "agility": {
+        "growth": 2.7999999523163,
+        "base": 24
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 1.7999999523163,
+        "base": 12
+      },
+      "baseAttackTime": 1.3999999761581
+    },
+    "tier": 5,
+    "name_loc": "Anti-Mage",
+    "name": "npc_dota_hero_antimage"
+  },
+  {
+    "attribute": "agi",
+    "stats": {
+      "armor": 3,
+      "attackSpeed": 100,
+      "attackRange": 150,
+      "moveSpeed": 315,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 2.5999999046326,
+        "base": 18
+      },
+      "damage": 43,
+      "agility": {
+        "growth": 1.3999999761581,
+        "base": 18
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 2.5,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 1.2999999523163,
+        "base": 14
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 5,
+    "name_loc": "Riki",
+    "name": "npc_dota_hero_riki"
+  },
+  {
+    "attribute": "agi",
+    "stats": {
+      "armor": 1,
+      "attackSpeed": 100,
+      "attackRange": 150,
+      "moveSpeed": 310,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 2.5999999046326,
+        "base": 25
+      },
+      "damage": 26,
+      "agility": {
+        "growth": 2.5999999046326,
+        "base": 18
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.5,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 1.5,
+        "base": 16
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 5,
+    "name_loc": "Ursa",
+    "name": "npc_dota_hero_ursa"
+  },
+  {
+    "attribute": "agi",
+    "stats": {
+      "armor": 0,
+      "attackSpeed": 100,
+      "attackRange": 160,
+      "moveSpeed": 305,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 2.4000000953674,
+        "base": 21
+      },
+      "damage": 33,
+      "agility": {
+        "growth": 3.2000000476837,
+        "base": 23
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 2,
+        "base": 20
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 5,
+    "name_loc": "Templar Assassin",
+    "name": "npc_dota_hero_templar_assassin"
+  },
+  {
+    "attribute": "agi",
+    "stats": {
+      "armor": 0,
+      "attackSpeed": 115,
+      "attackRange": 450,
+      "moveSpeed": 280,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 2.0999999046326,
+        "base": 19
+      },
+      "damage": 23.5,
+      "agility": {
+        "growth": 2.7999999523163,
+        "base": 24
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 1.7999999523163,
+        "base": 19
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 5,
+    "name_loc": "Venomancer",
+    "name": "npc_dota_hero_venomancer"
+  },
+  {
+    "attribute": "agi",
+    "stats": {
+      "armor": 1,
+      "attackSpeed": 90,
+      "attackRange": 150,
+      "moveSpeed": 290,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 2.5,
+        "base": 23
+      },
+      "damage": 25,
+      "agility": {
+        "growth": 2.0999999046326,
+        "base": 25
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 2,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 1.7000000476837,
+        "base": 16
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 5,
+    "name_loc": "Spectre",
+    "name": "npc_dota_hero_spectre"
+  },
+  {
+    "attribute": "agi",
+    "stats": {
+      "armor": 1,
+      "attackSpeed": 100,
+      "attackRange": 150,
+      "moveSpeed": 300,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 2.5,
+        "base": 17
+      },
+      "damage": 36,
+      "agility": {
+        "growth": 3.2000000476837,
+        "base": 18
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 1.8999999761581,
+        "base": 16
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 5,
+    "name_loc": "Pangolier",
+    "name": "npc_dota_hero_pangolier"
+  },
+  {
+    "attribute": "agi",
+    "stats": {
+      "armor": 0,
+      "attackSpeed": 120,
+      "attackRange": 425,
+      "moveSpeed": 275,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 2,
+        "base": 16
+      },
+      "damage": 40,
+      "agility": {
+        "growth": 3.0999999046326,
+        "base": 17
+      },
+      "mana": {
+        "regen": 0.5,
+        "value": 75
+      },
+      "health": {
+        "regen": 1.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 2,
+        "base": 20
+      },
+      "baseAttackTime": 1.7999999523163
+    },
+    "tier": 5,
+    "name_loc": "Weaver",
+    "name": "npc_dota_hero_weaver"
+  },
+  {
+    "attribute": "agi",
+    "stats": {
+      "armor": 1,
+      "attackSpeed": 100,
+      "attackRange": 150,
+      "moveSpeed": 300,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 2.4000000953674,
+        "base": 20
+      },
+      "damage": 40,
+      "agility": {
+        "growth": 3,
+        "base": 19
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 1,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 1.5,
+        "base": 15
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 5,
+    "name_loc": "Faceless Void",
+    "name": "npc_dota_hero_faceless_void"
+  },
+  {
+    "attribute": "agi",
+    "stats": {
+      "armor": 0,
+      "attackSpeed": 100,
+      "attackRange": 600,
+      "moveSpeed": 290,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 2,
+        "base": 16
+      },
+      "damage": 18,
+      "agility": {
+        "growth": 2.5,
+        "base": 22
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 2.2000000476837,
+        "base": 18
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 5,
+    "name_loc": "Clinkz",
+    "name": "npc_dota_hero_clinkz"
+  },
+  {
+    "attribute": "agi",
+    "stats": {
+      "armor": 0,
+      "attackSpeed": 120,
+      "attackRange": 150,
+      "moveSpeed": 300,
+      "projectileSpeed": 0,
+      "strength": {
+        "growth": 1.8999999761581,
+        "base": 20
+      },
+      "damage": 37,
+      "agility": {
+        "growth": 1.5,
+        "base": 21
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 1.75,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 1.7000000476837,
+        "base": 16
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 5,
+    "name_loc": "Slark",
+    "name": "npc_dota_hero_slark"
+  },
+  {
+    "attribute": "agi",
+    "stats": {
+      "armor": -1,
+      "attackSpeed": 100,
+      "attackRange": 625,
+      "moveSpeed": 285,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 2.5999999046326,
+        "base": 22
+      },
+      "damage": 34,
+      "agility": {
+        "growth": 3,
+        "base": 20
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 2.5999999046326,
+        "base": 24
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 1,
+    "name_loc": "Arc Warden",
+    "name": "npc_dota_hero_arc_warden"
+  },
+  {
+    "attribute": "agi",
+    "stats": {
+      "armor": 1,
+      "attackSpeed": 100,
+      "attackRange": 500,
+      "moveSpeed": 305,
+      "projectileSpeed": 1200,
+      "strength": {
+        "growth": 2.7000000476837,
+        "base": 19
+      },
+      "damage": 24,
+      "agility": {
+        "growth": 3.5,
+        "base": 20
+      },
+      "mana": {
+        "regen": 0.30000001192093,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 2.2000000476837,
+        "base": 18
+      },
+      "baseAttackTime": 1.6000000238419
+    },
+    "tier": 1,
+    "name_loc": "Shadow Fiend",
+    "name": "npc_dota_hero_nevermore"
+  },
+  {
+    "attribute": "agi",
+    "stats": {
+      "armor": 5,
+      "attackSpeed": 110,
+      "attackRange": 150,
+      "moveSpeed": 315,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 2,
+        "base": 16
+      },
+      "damage": 33,
+      "agility": {
+        "growth": 4,
+        "base": 22
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 1.5,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 1.6000000238419,
+        "base": 19
+      },
+      "baseAttackTime": 1.5
+    },
+    "tier": 1,
+    "name_loc": "Terrorblade",
+    "name": "npc_dota_hero_terrorblade"
+  },
+  {
+    "attribute": "agi",
+    "stats": {
+      "armor": 0,
+      "attackSpeed": 100,
+      "attackRange": 575,
+      "moveSpeed": 310,
+      "projectileSpeed": 1800,
+      "strength": {
+        "growth": 2,
+        "base": 17
+      },
+      "damage": 25.5,
+      "agility": {
+        "growth": 3.5999999046326,
+        "base": 24
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 2.9000000953674,
+        "base": 21
+      },
+      "baseAttackTime": 2
+    },
+    "tier": 1,
+    "name_loc": "Hoodwink",
+    "name": "npc_dota_hero_hoodwink"
+  },
+  {
+    "attribute": "agi",
+    "stats": {
+      "armor": 3,
+      "attackSpeed": 110,
+      "attackRange": 150,
+      "moveSpeed": 330,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 2.7999999523163,
+        "base": 21
+      },
+      "damage": 24,
+      "agility": {
+        "growth": 3.2999999523163,
+        "base": 21
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 1.5,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 2,
+        "base": 21
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 1,
+    "name_loc": "Naga Siren",
+    "name": "npc_dota_hero_naga_siren"
+  },
+  {
+    "attribute": "agi",
+    "stats": {
+      "armor": 2,
+      "attackSpeed": 100,
+      "attackRange": 300,
+      "moveSpeed": 300,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 2.7999999523163,
+        "base": 18
+      },
+      "damage": 31,
+      "agility": {
+        "growth": 3.7000000476837,
+        "base": 22
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 1,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 1.7999999523163,
+        "base": 20
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 1,
+    "name_loc": "Monkey King",
+    "name": "npc_dota_hero_monkey_king"
+  },
+  {
+    "attribute": "agi",
+    "stats": {
+      "armor": 2,
+      "attackSpeed": 125,
+      "attackRange": 365,
+      "moveSpeed": 315,
+      "projectileSpeed": 3000,
+      "strength": {
+        "growth": 2.5,
+        "base": 22
+      },
+      "damage": 19,
+      "agility": {
+        "growth": 3.2999999523163,
+        "base": 26
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 2.4000000953674,
+        "base": 21
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 2,
+    "name_loc": "Gyrocopter",
+    "name": "npc_dota_hero_gyrocopter"
+  },
+  {
+    "attribute": "agi",
+    "stats": {
+      "armor": -2,
+      "attackSpeed": 100,
+      "attackRange": 350,
+      "moveSpeed": 285,
+      "projectileSpeed": 1300,
+      "strength": {
+        "growth": 3,
+        "base": 22
+      },
+      "damage": 13.5,
+      "agility": {
+        "growth": 3.9000000953674,
+        "base": 24
+      },
+      "mana": {
+        "regen": 0.5,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.5,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 1.7999999523163,
+        "base": 19
+      },
+      "baseAttackTime": 1.5
+    },
+    "tier": 2,
+    "name_loc": "Morphling",
+    "name": "npc_dota_hero_morphling"
+  },
+  {
+    "attribute": "agi",
+    "stats": {
+      "armor": -2,
+      "attackSpeed": 110,
+      "attackRange": 630,
+      "moveSpeed": 290,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 2.2000000476837,
+        "base": 18
+      },
+      "damage": 27,
+      "agility": {
+        "growth": 3.0999999046326,
+        "base": 24
+      },
+      "mana": {
+        "regen": 0.40000000596046,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 1.8999999761581,
+        "base": 22
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 2,
+    "name_loc": "Mirana",
+    "name": "npc_dota_hero_mirana"
+  },
+  {
+    "attribute": "agi",
+    "stats": {
+      "armor": -1,
+      "attackSpeed": 100,
+      "attackRange": 475,
+      "moveSpeed": 280,
+      "projectileSpeed": 2000,
+      "strength": {
+        "growth": 2.7999999523163,
+        "base": 22
+      },
+      "damage": 24,
+      "agility": {
+        "growth": 2.5999999046326,
+        "base": 22
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 1,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 2.2000000476837,
+        "base": 21
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 2,
+    "name_loc": "Razor",
+    "name": "npc_dota_hero_razor"
+  },
+  {
+    "attribute": "agi",
+    "stats": {
+      "armor": 0,
+      "attackSpeed": 100,
+      "attackRange": 625,
+      "moveSpeed": 300,
+      "projectileSpeed": 1250,
+      "strength": {
+        "growth": 1.8999999761581,
+        "base": 16
+      },
+      "damage": 32.5,
+      "agility": {
+        "growth": 2.9000000953674,
+        "base": 20
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 1.3999999761581,
+        "base": 15
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 2,
+    "name_loc": "Drow Ranger",
+    "name": "npc_dota_hero_drow_ranger"
+  },
+  {
+    "attribute": "agi",
+    "stats": {
+      "armor": -1,
+      "attackSpeed": 100,
+      "attackRange": 150,
+      "moveSpeed": 300,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 2.5999999046326,
+        "base": 22
+      },
+      "damage": 35,
+      "agility": {
+        "growth": 3.2000000476837,
+        "base": 22
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 1.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 2.2000000476837,
+        "base": 20
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 3,
+    "name_loc": "Ember Spirit",
+    "name": "npc_dota_hero_ember_spirit"
+  },
+  {
+    "attribute": "agi",
+    "stats": {
+      "armor": 0,
+      "attackSpeed": 100,
+      "attackRange": 400,
+      "moveSpeed": 295,
+      "projectileSpeed": 1500,
+      "strength": {
+        "growth": 2.5999999046326,
+        "base": 19
+      },
+      "damage": 29,
+      "agility": {
+        "growth": 3.2000000476837,
+        "base": 20
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 1.5,
+        "base": 19
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 3,
+    "name_loc": "Vengeful Spirit",
+    "name": "npc_dota_hero_vengefulspirit"
+  },
+  {
+    "attribute": "agi",
+    "stats": {
+      "armor": 2,
+      "attackSpeed": 100,
+      "attackRange": 150,
+      "moveSpeed": 300,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 2.7000000476837,
+        "base": 24
+      },
+      "damage": 38,
+      "agility": {
+        "growth": 3.0999999046326,
+        "base": 22
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 2,
+        "base": 17
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 3,
+    "name_loc": "Bloodseeker",
+    "name": "npc_dota_hero_bloodseeker"
+  },
+  {
+    "attribute": "agi",
+    "stats": {
+      "armor": -2,
+      "attackSpeed": 120,
+      "attackRange": 575,
+      "moveSpeed": 275,
+      "projectileSpeed": 1200,
+      "strength": {
+        "growth": 2.4000000953674,
+        "base": 21
+      },
+      "damage": 28,
+      "agility": {
+        "growth": 2.7000000476837,
+        "base": 21
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 2,
+        "base": 17
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 3,
+    "name_loc": "Viper",
+    "name": "npc_dota_hero_viper"
+  },
+  {
+    "attribute": "agi",
+    "stats": {
+      "armor": 5,
+      "attackSpeed": 100,
+      "attackRange": 150,
+      "moveSpeed": 325,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 2.5,
+        "base": 20
+      },
+      "damage": 37,
+      "agility": {
+        "growth": 2.5999999046326,
+        "base": 21
+      },
+      "mana": {
+        "regen": 0.5,
+        "value": 75
+      },
+      "health": {
+        "regen": 1.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 1.8999999761581,
+        "base": 22
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 3,
+    "name_loc": "Bounty Hunter",
+    "name": "npc_dota_hero_bounty_hunter"
+  },
+  {
+    "attribute": "agi",
+    "stats": {
+      "armor": -1,
+      "attackSpeed": 100,
+      "attackRange": 600,
+      "moveSpeed": 275,
+      "projectileSpeed": 1200,
+      "strength": {
+        "growth": 1.5,
+        "base": 17
+      },
+      "damage": 29,
+      "agility": {
+        "growth": 3.4000000953674,
+        "base": 22
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 3.4000000953674,
+        "base": 23
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 3,
+    "name_loc": "Medusa",
+    "name": "npc_dota_hero_medusa"
+  },
+  {
+    "attribute": "agi",
+    "stats": {
+      "armor": 0,
+      "attackSpeed": 110,
+      "attackRange": 150,
+      "moveSpeed": 300,
+      "projectileSpeed": 0,
+      "strength": {
+        "growth": 2.2000000476837,
+        "base": 20
+      },
+      "damage": 18,
+      "agility": {
+        "growth": 2.7999999523163,
+        "base": 34
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.5,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 1.3999999761581,
+        "base": 14
+      },
+      "baseAttackTime": 1.3999999761581
+    },
+    "tier": 3,
+    "name_loc": "Juggernaut",
+    "name": "npc_dota_hero_juggernaut"
+  },
+  {
+    "attribute": "agi",
+    "stats": {
+      "armor": -1,
+      "attackSpeed": 100,
+      "attackRange": 550,
+      "moveSpeed": 285,
+      "projectileSpeed": 3000,
+      "strength": {
+        "growth": 2,
+        "base": 19
+      },
+      "damage": 16,
+      "agility": {
+        "growth": 3.2000000476837,
+        "base": 27
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 2.5999999046326,
+        "base": 15
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 3,
+    "name_loc": "Sniper",
+    "name": "npc_dota_hero_sniper"
+  },
+  {
+    "attribute": "agi",
+    "stats": {
+      "armor": 0,
+      "attackSpeed": 125,
+      "attackRange": 150,
+      "moveSpeed": 285,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 3.2000000476837,
+        "base": 18
+      },
+      "damage": 32,
+      "agility": {
+        "growth": 3.4000000953674,
+        "base": 19
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 2,
+        "base": 18
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 3,
+    "name_loc": "Broodmother",
+    "name": "npc_dota_hero_broodmother"
+  },
+  {
+    "attribute": "agi",
+    "stats": {
+      "armor": 2,
+      "attackSpeed": 100,
+      "attackRange": 330,
+      "moveSpeed": 325,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 2.2000000476837,
+        "base": 21
+      },
+      "damage": 29,
+      "agility": {
+        "growth": 3.4000000953674,
+        "base": 24
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.5,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 1.8999999761581,
+        "base": 23
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 4,
+    "name_loc": "Luna",
+    "name": "npc_dota_hero_luna"
+  },
+  {
+    "attribute": "agi",
+    "stats": {
+      "armor": -1,
+      "attackSpeed": 100,
+      "attackRange": 500,
+      "moveSpeed": 290,
+      "projectileSpeed": 1200,
+      "strength": {
+        "growth": 2.5,
+        "base": 21
+      },
+      "damage": 31,
+      "agility": {
+        "growth": 3.2999999523163,
+        "base": 21
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 1,
+        "base": 13
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 4,
+    "name_loc": "Troll Warlord",
+    "name": "npc_dota_hero_troll_warlord"
+  },
+  {
+    "attribute": "agi",
+    "stats": {
+      "armor": -2,
+      "attackSpeed": 100,
+      "attackRange": 550,
+      "moveSpeed": 325,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 2.5,
+        "base": 18
+      },
+      "damage": 20,
+      "agility": {
+        "growth": 2.7999999523163,
+        "base": 20
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 1.3999999761581,
+        "base": 13
+      },
+      "baseAttackTime": 1.6000000238419
+    },
+    "tier": 4,
+    "name_loc": "Lone Druid",
+    "name": "npc_dota_hero_lone_druid"
+  },
+  {
+    "attribute": "agi",
+    "stats": {
+      "armor": 4,
+      "attackSpeed": 100,
+      "attackRange": 150,
+      "moveSpeed": 330,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 2.5,
+        "base": 24
+      },
+      "damage": 32,
+      "agility": {
+        "growth": 2.2000000476837,
+        "base": 17
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.25,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 1.8999999761581,
+        "base": 20
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 4,
+    "name_loc": "Meepo",
+    "name": "npc_dota_hero_meepo"
+  },
+  {
+    "attribute": "agi",
+    "stats": {
+      "armor": 1,
+      "attackSpeed": 100,
+      "attackRange": 150,
+      "moveSpeed": 305,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 2,
+        "base": 19
+      },
+      "damage": 32,
+      "agility": {
+        "growth": 3.2000000476837,
+        "base": 23
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 0.75,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 1.3999999761581,
+        "base": 15
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 5,
+    "name_loc": "Phantom Assassin",
+    "name": "npc_dota_hero_phantom_assassin"
+  },
+  {
+    "attribute": "agi",
+    "stats": {
+      "armor": -1,
+      "attackSpeed": 100,
+      "attackRange": 150,
+      "moveSpeed": 290,
+      "projectileSpeed": 900,
+      "strength": {
+        "growth": 2.2000000476837,
+        "base": 19
+      },
+      "damage": 31,
+      "agility": {
+        "growth": 3.2000000476837,
+        "base": 26
+      },
+      "mana": {
+        "regen": 0,
+        "value": 75
+      },
+      "health": {
+        "regen": 2,
+        "value": 200
+      },
+      "intelligence": {
+        "growth": 2,
+        "base": 21
+      },
+      "baseAttackTime": 1.7000000476837
+    },
+    "tier": 5,
+    "name_loc": "Phantom Lancer",
+    "name": "npc_dota_hero_phantom_lancer"
+  }
+]

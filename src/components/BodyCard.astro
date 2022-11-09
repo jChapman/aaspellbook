@@ -1,0 +1,76 @@
+---
+interface Stat {
+  growth: number;
+  base: number;
+}
+interface Body {
+  attribute: string;
+  stats: {
+    armor: number;
+    attackSpeed: number;
+    attackRange: number;
+    moveSpeed: number;
+    projectileSpeed: number;
+    damage: number;
+    baseAttackTime: number;
+    strength: Stat;
+    agility: Stat;
+    intelligence: Stat;
+    mana: {
+      regen: number;
+      value: number;
+    };
+    health: {
+      regen: number;
+      value: number;
+    };
+  };
+  tier: number;
+  name_loc: string;
+  name: string;
+}
+
+export interface Props {
+  body: Body;
+}
+
+const { body } = Astro.props;
+
+function tierMap(b: Body) {
+  switch (b.tier) {
+    case 1:
+      return "S";
+    case 2:
+      return "A";
+    case 3:
+      return "B";
+    case 4:
+      return "C";
+    case 5:
+      return "D";
+    default:
+      return "UNKNOWN";
+  }
+}
+---
+
+<div class="m-2 rounded-xl bg-dank-600 shadow-lg shadow-dank-900 flex flex-col">
+  <header
+    class="p-4 rounded-t-xl bg-dank-500 text-slate-200 text-2xl font-bold flex"
+  >
+    <span>{body.name_loc}</span>
+    <div class="rounded-full outline-2 outline-yellow-600 ml-auto mr-2">{tierMap(body)}</div>
+  </header>
+  <div>
+    <div class="w-full bg-gradient-to-r from-green-900 to-green-500 flex relative">
+      <span class="m-auto">{body.stats.health.value}</span>
+      <div class="absolute right-2">+{body.stats.health.regen}</div>
+    </div>
+    <div class="w-full bg-gradient-to-r from-sky-900 to-sky-500 flex relative">
+      <span class="m-auto">{body.stats.mana.value}</span>
+      <div class="absolute right-2">+{body.stats.mana.regen}</div>
+    </div>
+  </div>
+  <div class="bg-gradient-to-r from-black to-transparent grid grid-cols-2">
+  </div>
+</div>

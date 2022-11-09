@@ -1,0 +1,19 @@
+---
+import allBods from '../data/bodies.json'
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import BodyCard from '../components/BodyCard.astro';
+---
+
+<Layout title="Bodies">
+  <Header title="Bodies"/>
+  <main>
+    <div class="flex flex-row flex-wrap justify-center w-3/4 py-4 mx-auto">
+    {allBods.map(b => (
+      <BodyCard body={b}/>
+    ))}
+    </div>
+  </main>
+  <Footer/>
+</Layout>
