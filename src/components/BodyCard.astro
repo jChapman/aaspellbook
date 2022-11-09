@@ -1,109 +1,151 @@
 ---
-  interface Stat {
-    growth: number;
-    base: number;
-  }
-  interface Body {
-    attribute: string;
-    stats: {
-      armor: number;
-      attackSpeed: number;
-      attackRange: number;
-      moveSpeed: number;
-      projectileSpeed: number;
-      damage: number;
-      baseAttackTime: number;
-      strength: Stat;
-      agility: Stat;
-      intelligence: Stat;
-      mana: {
-        regen: number;
-        value: number;
-      };
-      health: {
-        regen: number;
-        value: number;
-      };
-    };
-    tier: number;
-    name_loc: string;
-    name: string;
-  }
+interface Stat {
+  growth: number;
+  base: number;
+}
+interface Stats {
+  armor: number;
+  attackSpeed: number;
+  attackRange: number;
+  moveSpeed: number;
+  projectileSpeed: number;
+  damage: number;
+  baseAttackTime: number;
+  strength: Stat;
+  agility: Stat;
+  intelligence: Stat;
+  mana: {
+    regen: number;
+    value: number;
+  };
+  health: {
+    regen: number;
+    value: number;
+  };
+}
+interface Body {
+  attribute: string;
+  stats1: Stats;
+  stats3: Stats;
+  stats5: Stats;
+  stats8: Stats;
+  stats12: Stats;
+  stats15: Stats;
+  stats20: Stats;
+  tier: number;
+  name_loc: string;
+  name: string;
+}
 
-  export interface Props {
-    body: Body;
+export interface Props {
+  body: Body;
+  level: number;
+}
+
+const { body, level } = Astro.props;
+
+function tierMap(b: Body) {
+  switch (b.tier) {
+    case 1:
+      return "S";
+    case 2:
+      return "A";
+    case 3:
+      return "B";
+    case 4:
+      return "C";
+    case 5:
+      return "D";
+    default:
+      return "UNKNOWN";
   }
+}
+const stats = body[`stats${level}`] as Stats
 
-  const { body } = Astro.props;
+const displayData = [
+  { name: "Attacks Per Second", value: stats.attackSpeed.toFixed(0) },
+  { name: "Damage", value: stats.damage.toFixed(0) },
+  { name: "Attack Range", value: stats.attackRange },
+  { name: "Projectile Speed", value: stats.projectileSpeed },
+  { name: "Move Speed", value: stats.moveSpeed },
+  { name: "Armor", value: stats.armor.toFixed(0) },
+];
 
-  function tierMap(b: Body) {
-    switch (b.tier) {
-      case 1:
-        return "S";
-      case 2:
-        return "A";
-      case 3:
-        return "B";
-      case 4:
-        return "C";
-      case 5:
-        return "D";
-      default:
-        return "UNKNOWN";
-    }
-  }
-
-  const displayData = [
-    { name: 'Attacks Per Second', value: body.stats.attackSpeed },
-    { name: 'Damage', value: body.stats.damage },
-    { name: 'Attack Range', value: body.stats.attackRange },
-    { name: 'Projectile Speed', value: body.stats.projectileSpeed },
-    { name: 'Move Speed', value: body.stats.moveSpeed },
-    { name: 'Armor', value: body.stats.armor },
-  ]
-
-  function classNames(...classes) {
-    return classes.filter(Boolean).join(" ");
-  }
+function classNames(...classes) {
+  return classes.filter(Boolean).join(" ");
+}
 ---
 
-<div class="m-2 rounded-xl bg-dank-600 border-[1px] border-purple-900 flex flex-col space-y-4">
+<div
+  class="m-2 rounded-xl bg-dank-600 border-[1px] border-purple-900 flex flex-col space-y-4"
+>
   <header class="rounded-t-xl text-2xl font-bold flex m-4">
     <span class="truncate">{body.name_loc}</span>
-    <div class="rounded-full border-2 border-yellow-600 ml-auto px-2">{tierMap(body)}</div>
+    <div class="rounded-full border-2 border-yellow-600 ml-auto px-2">
+      {tierMap(body)}
+    </div>
   </header>
   <div class="space-y-2 mx-4">
-    <div class="w-full bg-gradient-to-r from-green-900 to-green-500 flex relative">
-      <span class="m-auto font-bold">{body.stats.health.value}</span>
-      <div class="absolute right-2">+{body.stats.health.regen.toFixed(2)}</div>
+    <div
+      class="w-full bg-gradient-to-r from-green-900 to-green-500 flex relative"
+    >
+      <span class="m-auto font-bold">{stats.health.value.toFixed(0)}</span>
+      <div class="absolute right-2">+{stats.health.regen.toFixed(2)}</div>
     </div>
     <div class="w-full bg-gradient-to-r from-sky-900 to-sky-500 flex relative">
-      <span class="m-auto font-bold">{body.stats.mana.value}</span>
-      <div class="absolute right-2">+{body.stats.mana.regen.toFixed(2)}</div>
+      <span class="m-auto font-bold">{stats.mana.value.toFixed(0)}</span>
+      <div class="absolute right-2">+{stats.mana.regen.toFixed(2)}</div>
     </div>
   </div>
   <div class="bg-gradient-to-r from-black/80 to-black/30 px-4">
     {
-    displayData.map(({name, value}) => (
-    <div class="flex items-center px-3 text-sm font-medium">
-      <span class="pr-4">{name}:</span>
-      <span class="ml-auto inline-block py-0.5 px-3">{value}</span>
-    </div>
-    ))
+      displayData.map(({ name, value }) => (
+        <div class="flex items-center px-3 text-sm font-medium">
+          <span class="pr-4">{name}:</span>
+          <span class="ml-auto inline-block py-0.5 px-3">{value}</span>
+        </div>
+      ))
     }
   </div>
   <div class="flex flex-col">
-    <div class={classNames('flex w-full py-1', body.attribute === 'str' && 'bg-red-900')}>
+    <div
+      class={classNames(
+        "flex w-full py-1",
+        body.attribute === "str" && "bg-red-900"
+      )}
+    >
       <div class="h-6 w-6 bg-red-500 rounded-full ml-auto mr-2"></div>
-      <span class="mr-auto">{body.stats.strength.base} + {body.stats.strength.growth.toFixed(1)}</span>
+      <span class="mr-auto"
+        >{stats.strength.base.toFixed(0)} + {
+          stats.strength.growth.toFixed(1)
+        }</span
+      >
     </div>
-    <div class={classNames('flex w-full py-1', body.attribute === 'agi' && 'bg-green-900')}>
+    <div
+      class={classNames(
+        "flex w-full py-1",
+        body.attribute === "agi" && "bg-green-900"
+      )}
+    >
       <div class="h-6 w-6 bg-green-500 rounded-full ml-auto mr-2"></div>
-      <span class="mr-auto">{body.stats.agility.base} + {body.stats.agility.growth.toFixed(1)}</span>
+      <span class="mr-auto"
+        >{stats.agility.base.toFixed(0)} + {
+          stats.agility.growth.toFixed(1)
+        }</span
+      >
     </div>
-    <div class={classNames('flex w-full py-1', body.attribute === 'int' && 'bg-blue-900')}>
+    <div
+      class={classNames(
+        "flex w-full py-1",
+        body.attribute === "int" && "bg-blue-900"
+      )}
+    >
       <div class="h-6 w-6 bg-blue-500 rounded-full ml-auto mr-2"></div>
-      <span class="mr-auto">{body.stats.intelligence.base} + {body.stats.intelligence.growth.toFixed(1)}</span>
+      <span class="mr-auto"
+        >{stats.intelligence.base.toFixed(0)} + {
+          stats.intelligence.growth.toFixed(1)
+        }</span
+      >
     </div>
   </div>
 </div>
