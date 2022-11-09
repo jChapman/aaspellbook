@@ -9,7 +9,7 @@ import BodyCard from '../components/BodyCard.astro';
 <Layout title="Bodies">
   <Header title="Bodies"/>
   <main>
-    <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 w-3/4 py-4 mx-auto">
+    <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 w-3/4 py-4 mx-auto">
     {allBods.map(b => (
       <BodyCard body={b} level={20}/>
     ))}
